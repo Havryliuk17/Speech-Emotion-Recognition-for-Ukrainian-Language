@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Review</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #f0f2f5;
+      color: #1a1a2e;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .container {
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, .08);
+      max-width: 620px;
+      width: 100%;
+      padding: 2.5rem;
+    }
+
+    .progress-header {
+      display: flex;
+      justify-content: space-between;
+      font-size: .85rem;
+      color: #666;
+      margin-bottom: .5rem;
+    }
+    .progress-bar-bg {
+      height: 8px;
+      background: #e9ecef;
+      border-radius: 4px;
+      overflow: hidden;
+      margin-bottom: 2rem;
+    }
+    .progress-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #6c63ff, #48bfe3);
+      border-radius: 4px;
+      transition: width .4s ease;
+    }
+
+    .clip-name {
+      font-size: 1rem;
+      font-weight: 600;
+      word-break: break-all;
+      margin-bottom: .25rem;
+    }
+    .clip-meta {
+      font-size: .8rem;
+      color: #888;
+      margin-bottom: 1.25rem;
+    }
+    .clip-meta .emotion-badge {
+      display: inline-block;
+      padding: .15rem .55rem;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: .75rem;
+      text-transform: capitalize;
+      background: #f0edff;
+      color: #6c63ff;
+      margin-left: .4rem;
+    }
+
+    audio {
+      width: 100%;
+      margin-bottom: 1.5rem;
+      border-radius: 8px;
+      outline: none;
+    }
+
+    .section-label {
+      font-size: .75rem;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      color: #999;
+      margin-bottom: .6rem;
+    }
+
+    .text-display {
+      background: #f8f9fa;
+      border: 2px solid #e9ecef;
+      border-radius: 12px;
+      padding: 1rem 1.25rem;
+      font-size: 1rem;
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+      min-height: 60px;
+      color: #333;
+    }
+    .text-display.empty {
+      color: #bbb;
+      font-style: italic;
+    }
+
+    .text-edit {
+      width: 100%;
+      background: #fff;
+      border: 2px solid #6c63ff;
+      border-radius: 12px;
+      padding: 1rem 1.25rem;
+      font-size: 1rem;
+      font-family: inherit;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+      min-height: 80px;
+      resize: vertical;
+      outline: none;
+      color: #333;
+      display: none;
+    }
+    .text-edit:focus {
+      box-shadow: 0 0 0 3px rgba(108, 99, 255, .15);
+    }
+
+    .actions {
+      display: flex;
+      gap: .75rem;
+    }
+
+    .btn {
+      flex: 1;
+      padding: 1rem;
+      border: none;
+      border-radius: 12px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all .2s ease;
+      text-align: center;
+    }
+
+    .btn-ok {
+      background: linear-gradient(135deg, #28a745, #20c997);
+      color: #fff;
+    }
+    .btn-ok:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 14px rgba(40, 167, 69, .35);
+    }
+
+    .btn-edit {
+      background: linear-gradient(135deg, #6c63ff, #48bfe3);
+      color: #fff;
+    }
+    .btn-edit:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 14px rgba(108, 99, 255, .35);
+    }
+
+    .btn-save {
+      background: linear-gradient(135deg, #28a745, #20c997);
+      color: #fff;
+      display: none;
+    }
+    .btn-save:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 4px 14px rgba(40, 167, 69, .35);
+    }
+
+    .btn-cancel {
+      background: #fff;
+      color: #888;
+      border: 2px solid #e0e0e0;
+      display: none;
+    }
+    .btn-cancel:hover {
+      border-color: #ff6b6b;
+      color: #ff6b6b;
+      background: #fff5f5;
+    }
+
+    .btn-skip {
+      padding: 1rem 1.5rem;
+      border: 2px solid #e0e0e0;
+      border-radius: 12px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all .2s ease;
+      background: #fff;
+      color: #888;
+      flex: 0 0 auto;
+    }
+    .btn-skip:hover {
+      border-color: #ffc107;
+      color: #e0a800;
+      background: #fffbea;
+    }
+
+    .done {
+      text-align: center;
+      padding: 2rem 0;
+    }
+    .done h2 {
+      font-size: 1.6rem;
+      margin-bottom: .5rem;
+    }
+    .done p {
+      color: #666;
+    }
+    .checkmark {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .keyboard-hint {
+      text-align: center;
+      font-size: .75rem;
+      color: #bbb;
+      margin-top: 1rem;
+    }
+    .keyboard-hint kbd {
+      display: inline-block;
+      padding: .1rem .4rem;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      background: #f8f9fa;
+      font-family: inherit;
+      font-size: .75rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="progress-header">
+      <span>Progress</span>
+      <span>{{ done }} / {{ total }}</span>
+    </div>
+    <div class="progress-bar-bg">
+      <div class="progress-bar-fill" style="width:{{ (done / total * 100) if total else 100 }}%"></div>
+    </div>
+
+    {% if clip %}
+    <div class="clip-name">{{ clip }}</div>
+    <div class="clip-meta">
+      Duration: {{ duration }}s
+      <span class="emotion-badge">{{ emotion }}</span>
+    </div>
+
+    <audio controls autoplay src="/audio/{{ audio_url }}"></audio>
+
+    <div class="section-label">Transcription</div>
+    <div class="text-display {% if not text %}empty{% endif %}" id="textDisplay">
+      {{ text if text else "(no transcription)" }}
+    </div>
+
+    <textarea class="text-edit" id="textEdit">{{ text }}</textarea>
+
+    <!-- OK form (confirm text is fine) -->
+    <form id="confirmForm" method="POST" action="/confirm" style="display:none">
+      <input type="hidden" name="clip_name" value="{{ clip }}">
+    </form>
+
+    <!-- Update form (save edited text) -->
+    <form id="updateForm" method="POST" action="/update_text" style="display:none">
+      <input type="hidden" name="clip_name" value="{{ clip }}">
+      <input type="hidden" name="clip_index" value="{{ clip_index }}">
+      <input type="hidden" name="new_text" id="newTextInput" value="">
+    </form>
+
+    <!-- Skip form -->
+    <form id="skipForm" method="POST" action="/skip" style="display:none">
+      <input type="hidden" name="clip_name" value="{{ clip }}">
+    </form>
+
+    <div class="actions">
+      <button type="button" class="btn btn-ok" id="btnOk">OK</button>
+      <button type="button" class="btn btn-edit" id="btnEdit">Edit</button>
+      <button type="button" class="btn btn-save" id="btnSave">Save &amp; Next</button>
+      <button type="button" class="btn btn-cancel" id="btnCancel">Cancel</button>
+      <button type="button" class="btn-skip" id="btnSkip">Skip</button>
+    </div>
+
+    <div class="keyboard-hint">
+      <kbd>Enter</kbd> OK &nbsp;&middot;&nbsp;
+      <kbd>E</kbd> Edit &nbsp;&middot;&nbsp;
+      <kbd>S</kbd> Skip
+    </div>
+
+    {% else %}
+    <div class="done">
+      <div class="checkmark">&#10003;</div>
+      <h2>All done!</h2>
+      <p>{{ total }} clip{{ 's' if total != 1 else '' }} reviewed. Changes saved to <strong>dataset.csv</strong></p>
+    </div>
+    {% endif %}
+  </div>
+
+  {% if clip %}
+  <script>
+    const textDisplay = document.getElementById('textDisplay');
+    const textEdit    = document.getElementById('textEdit');
+    const btnOk       = document.getElementById('btnOk');
+    const btnEdit     = document.getElementById('btnEdit');
+    const btnSave     = document.getElementById('btnSave');
+    const btnCancel   = document.getElementById('btnCancel');
+    const btnSkip     = document.getElementById('btnSkip');
+
+    let editing = false;
+
+    function enterEditMode() {
+      editing = true;
+      textDisplay.style.display = 'none';
+      textEdit.style.display = 'block';
+      textEdit.focus();
+      btnOk.style.display = 'none';
+      btnEdit.style.display = 'none';
+      btnSave.style.display = 'block';
+      btnCancel.style.display = 'block';
+    }
+
+    function exitEditMode() {
+      editing = false;
+      textDisplay.style.display = 'block';
+      textEdit.style.display = 'none';
+      btnOk.style.display = 'block';
+      btnEdit.style.display = 'block';
+      btnSave.style.display = 'none';
+      btnCancel.style.display = 'none';
+    }
+
+    btnOk.addEventListener('click', () => {
+      document.getElementById('confirmForm').submit();
+    });
+
+    btnEdit.addEventListener('click', enterEditMode);
+
+    btnSave.addEventListener('click', () => {
+      document.getElementById('newTextInput').value = textEdit.value;
+      document.getElementById('updateForm').submit();
+    });
+
+    btnCancel.addEventListener('click', exitEditMode);
+
+    btnSkip.addEventListener('click', () => {
+      document.getElementById('skipForm').submit();
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (editing) {
+        if (e.key === 'Escape') {
+          e.preventDefault();
+          exitEditMode();
+        }
+        return;
+      }
+
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        btnOk.click();
+      } else if (e.key === 'e' || e.key === 'E') {
+        e.preventDefault();
+        enterEditMode();
+      } else if (e.key === 's' || e.key === 'S') {
+        e.preventDefault();
+        btnSkip.click();
+      }
+    });
+  </script>
+  {% endif %}
+</body>
+</html>
