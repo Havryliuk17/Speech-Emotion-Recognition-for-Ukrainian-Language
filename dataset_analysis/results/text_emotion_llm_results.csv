@@ -1,0 +1,953 @@
+filename,emotion,text,llm_pred_emotion,llm_rationale
+s_001_1.wav,sad,"Якщо в тебе щось не виходить,",neutral,Incomplete conditional statement without clear emotional content.
+s_002_1.wav,sad,Але я тебе ніколи не бачила.,neutral,Simple factual statement about not having seen someone before.
+s_003_0.wav,sad,Якраз для дівчаток. Тримай.,happy,"Friendly, giving gesture with positive tone suggesting helpfulness."
+s_004_1.wav,sad,Я цих 700 грн ділила на 30 днів.,neutral,Mathematical calculation statement with no emotional valence.
+s_005_1.wav,sad,Нічого не відчуваю.,sad,Expression of emotional numbness or emptiness.
+s_006_1.wav,sad,З дитиною він не грався.,sad,Statement about lack of father-child interaction suggests neglect or sadness.
+s_007_0.wav,sad,Тато з ким спілкуєшся?,neutral,Simple question asking about communication without emotional charge.
+s_008_1.wav,sad,Я би не змогла відправити сина жити окремо.,sad,Expression of inability to separate from child shows emotional distress.
+s_009_0.wav,sad,Вони з татом не спілкувалися.,sad,Statement about lack of father-son communication suggests family problems.
+s_010_1.wav,sad,"Я не вірю, щоб",neutral,Incomplete statement of disbelief without clear emotional direction.
+s_011_1.wav,sad,"А я вважаю, що я зробила себе сама.",happy,Statement of self-empowerment and personal achievement with positive tone.
+s_012_1.wav,sad,"Я кажу, відвези мене додому.",neutral,Simple request to be taken home without emotional charge.
+s_013_1.wav,sad,Вона через 10-15 хвилин.,neutral,Factual time reference without emotional content.
+s_014_1.wav,sad,Якби просто поруч не чоловік.,neutral,Incomplete hypothetical statement about man's presence without clear emotion.
+s_015_1.wav,sad,Я не уявляю свого життя без нього.,happy,Expression of deep attachment and love for someone.
+s_016_1.wav,sad,Шок був дуже сильний.,sad,Description of intense shock indicates distress or trauma.
+s_017_1.wav,sad,Це важко було?,neutral,Simple question about difficulty level without emotional charge.
+s_018_1.wav,sad,Це важко було без вікна.,sad,Statement about difficulty without window suggests hardship or discomfort.
+s_019_1.wav,sad,"Зробиш мені, будь ласка, чайчик.",neutral,Polite request for tea without emotional charge.
+s_020_0.wav,sad,"Нема слів, просто чесно.",sad,Expression of being speechless suggests overwhelming emotion or disappointment.
+s_021_1.wav,sad,лікарі заборонили нам пів року пробувати.,sad,Doctors forbidding something for half a year suggests disappointment or distress.
+s_022_1.wav,sad,Я вже трішечки прийшла в себе.,neutral,Statement about recovering or coming to oneself is factual without clear emotion.
+s_023_1.wav,sad,Як вдалося вам її зберегти?,neutral,"Simple question about how something was preserved, no emotional valence."
+s_024_1.wav,sad,Але кохання не було в мене ніколи до нього.,sad,Statement about never having love suggests melancholy or regret.
+s_025_1.wav,sad,Він і почав жбурляти їх в мене.,angry,Someone throwing things at the speaker indicates aggression and conflict.
+s_026_0.wav,sad,Я допомагав трішечки зовсім.,neutral,"Simple statement about helping a little bit, factual tone."
+s_027_1.wav,sad,самостійне життя.,neutral,Brief phrase about independent life without emotional context.
+s_028_1.wav,sad,"Гіршого дня і в мене ще й не було, мабуть, в житті.",sad,Describing the worst day in life clearly expresses deep sadness.
+s_029_1.wav,sad,Не просто рибку з'їсти.,neutral,Statement about eating fish appears factual without emotional weight.
+s_030_1.wav,sad,"не обійме мене, вона більше не поцілує мене.",sad,Missing physical affection like hugs and kisses expresses longing and sadness.
+s_031_1.wav,sad,Я дуже багато плакала.,sad,Crying a lot is a direct expression of sadness.
+s_032_1.wav,sad,Ну не було його.,neutral,"Simple statement that someone wasn't there, factual without emotion."
+s_033_1.wav,sad,"Я дуже багато плакала, дуже боляче.",sad,Crying a lot and feeling pain clearly indicates deep sadness.
+s_034_1.wav,sad,Не відчувала себе потрібною рідним.,sad,Not feeling needed by family expresses loneliness and sadness.
+s_035_1.wav,sad,вона не відчувала себе потрібною рідним.,sad,Not feeling needed by family indicates emotional distress and sadness.
+s_036_1.wav,sad,В мене аж слів немає до сих пір.,neutral,Being at a loss for words could indicate surprise but lacks clear emotion.
+s_037_1.wav,sad,"Ну, каже, а що ти тут робиш? Ти дурна?",angry,Calling someone stupid indicates hostility and anger.
+s_038_1.wav,sad,Та ніхто просто цьому не підтримав.,sad,Nobody supporting something suggests disappointment and sadness.
+s_039_1.wav,sad,Мені дуже стидно було.,sad,Feeling very ashamed expresses emotional distress and sadness.
+s_040_1.wav,sad,"поясняти лікарю, що маму хочуть виписати.",neutral,Explaining to a doctor about discharge is a factual statement.
+s_041_1.wav,sad,Я приходила у велику фарму.,neutral,Simple factual statement about visiting a large pharmacy.
+s_042_1.wav,sad,роди дуже важкі були.,sad,"Describes very difficult childbirth, expressing hardship and suffering."
+s_043_1.wav,sad,"Так як в мене були дуже важкі пологи,",sad,"Mentions very difficult childbirth experience, indicating pain or trauma."
+s_044_1.wav,sad,І буду робити ще більше.,happy,"Expresses determination to do even more, showing positive motivation."
+s_045_1.wav,sad,Відношення до мене не дуже добре.,sad,"States that treatment toward them is not very good, indicating hurt."
+s_046_1.wav,sad,"Можливо, ти завтра ще?",neutral,"Simple question about tomorrow, no clear emotional content."
+s_047_1.wav,sad,Він дуже хороший батько.,happy,"Praises someone as a very good father, expressing positive sentiment."
+s_048_1.wav,sad,Просто не вистачало поспілкуватися з людиною.,sad,"Expresses lack of communication with people, indicating loneliness or isolation."
+s_049_1.wav,sad,"Бо мені причулось, що Карпачов мені 10 балів би дав.",happy,Expresses positive expectation about receiving high score from Karpachov.
+s_050_1.wav,sad,"Ну, просто найкращий чоловік, якого я просто знаю.",happy,"Describes someone as the best man they know, very positive."
+s_051_1.wav,sad,Він прожив три дні і,neutral,"Incomplete statement about someone living three days, factual tone."
+s_052_1.wav,sad,"Він прожив три дні, і в нього стався",sad,"Mentions someone living only three days before something happened, tragic implication."
+s_053_1.wav,sad,Вони навіть на них наводяться швидко.,neutral,Factual statement about something being quickly targeted or aimed.
+s_054_0.wav,sad,Не може бути дитині 29 років?,neutral,Simple question about a child being 29 years old.
+s_055_1.wav,sad,"Ну, мабуть, тим, що",neutral,"Incomplete thought beginning with probably, no clear emotion."
+s_056_1.wav,sad,Я не хочу піти.,sad,"States not wanting to leave, expressing reluctance or distress."
+s_057_1.wav,sad,Коли в мене було вже тридцять дітей.,neutral,"States having thirty children, factual though unusual claim."
+s_058_1.wav,sad,Я розлучилася зі своїм першим чоловіком.,sad,"Mentions divorce from first husband, indicating relationship failure and sadness."
+s_059_1.wav,sad,Я настільки ненавиділа їхню матір.,angry,"Expresses strong hatred toward their mother, clear anger and resentment."
+s_060_1.wav,sad,"Ну, я пам'ятаю, він просто лежить і тримається за голову.",sad,"Describes someone lying down holding their head, suggests pain or distress."
+s_061_1.wav,sad,"кажу, пап, що в тебе сталось?",neutral,"A simple question asking what happened to someone, no clear emotional charge."
+s_062_1.wav,sad,"Мене мама била в дитинстві, причому досить сильно.",sad,"Describes childhood physical abuse, expressing painful personal experience."
+s_063_1.wav,sad,"Я не вважаю, що це мені за щось там віддається.",neutral,Statement of personal belief or opinion without strong emotional content.
+s_064_1.wav,sad,"Я чула тільки кохана, зайчик, люблю, цьомки.",happy,"Lists affectionate words like 'beloved,' 'bunny,' 'love,' suggesting positive feelings."
+s_065_1.wav,sad,біг мама заступалася за тебе.,neutral,"Incomplete statement about mother defending someone, lacks clear emotional context."
+s_066_1.wav,sad,тої тоже мала бути.,neutral,"Fragment about something that should have been, too unclear for emotion."
+s_067_1.wav,sad,"Дякую за те, що ти мене лікував.",happy,"Expression of gratitude for medical treatment, positive appreciation."
+s_068_1.wav,sad,Я просто пам'ятаю це.,neutral,"Simple statement about remembering something, factual and emotionally flat."
+s_069_1.wav,sad,"Мама мені не повірила, сказала, що я",sad,"Describes mother not believing them, suggesting hurt and disappointment."
+s_070_1.wav,sad,Взагалі незрозуміло цього жесту.,neutral,"Statement about not understanding a gesture, matter-of-fact confusion."
+s_071_1.wav,sad,"Я думаю, що я під загрозою покинути проект.",sad,"Expresses fear about being under threat of leaving project, showing anxiety."
+s_072_1.wav,sad,"Та, блін, мене просто кумарить той серш.",angry,Uses strong language expressing frustration or craving for something intensely.
+s_073_1.wav,sad,Блядь!,angry,Explicit profanity expressing strong negative emotion or frustration.
+s_074_0.wav,sad,"справді, я не зрозумів.",neutral,"Simple admission of not understanding something, factual statement."
+s_075_1.wav,sad,У мене кожен раз збільшувалась тривога.,sad,"Describes increasing anxiety each time, indicating distress and worry."
+s_076_1.wav,sad,"наче, я не щира.",sad,"Suggests feeling insincere or fake, indicating self-doubt and negative feelings."
+s_077_1.wav,sad,просто і почали литись сльози.,sad,"Describes tears starting to flow, clear indication of crying and sadness."
+s_078_1.wav,sad,Почали лити сльози?,neutral,"Question about tears starting, seeking confirmation without emotional charge."
+s_079_1.wav,sad,"Я хочу себе врятувати. Я не очікувала, що так буває.",sad,"Expresses desire for self-rescue and surprise at difficult situation, showing distress."
+s_080_1.wav,sad,"Я шукаю причини, чому мене немає в TikTok.",neutral,"Statement about searching for reasons regarding TikTok presence, factual inquiry."
+s_081_1.wav,sad,Я просто хочу якогось ставлення нормального.,sad,"Expresses a desire for normal treatment, implying current dissatisfaction or hurt."
+s_082_1.wav,sad,"Я відчувала страх того, що я можу поїхати додому.",sad,"Directly mentions fear about going home, indicating anxiety and distress."
+s_083_1.wav,sad,"І так, без того тривожно через сьогоднішній день,",sad,"Expresses anxiety about the current day, showing worry and unease."
+s_084_1.wav,sad,"Наболіли, вони в мене отут вже сидять.",sad,Describes physical discomfort that has been bothering them for a while.
+s_085_1.wav,sad,"Обстріл був, до наші три рятувальника загинуло.",sad,"Reports tragedy where three rescuers died in shelling, clearly expressing grief."
+s_086_1.wav,sad,"Ми не поняли, як і де воно буде.",neutral,States factual confusion about understanding something without clear emotional content.
+s_087_1.wav,sad,"Ми не поняли друг друга, хоча я думала, що в нас класний буде коннект.",sad,Expresses disappointment about failed connection despite initial expectations.
+s_088_1.wav,sad,"але, на жаль, так вийшло, що наразі",sad,Uses regretful language 'unfortunately' indicating disappointment about current circumstances.
+s_089_1.wav,sad,Я залишаю свій біль та образу на колишнього.,sad,Explicitly mentions pain and resentment toward a former partner.
+s_090_1.wav,sad,"Я дуже сподіваюсь, що з часом це мене відпустить.",sad,"Expresses hope for healing, implying current emotional suffering that needs release."
+s_091_1.wav,sad,Тарас мене не кликав до себе.,sad,"States that Taras didn't invite them, suggesting feeling excluded or rejected."
+s_092_1.wav,sad,"Я просто в шоці, бо я не очікувала такого повороту.",angry,Expresses shock about unexpected turn of events with strong emotional reaction.
+s_093_1.wav,sad,"Я закінчила розмову, я була зла.",angry,Explicitly states being angry and ending a conversation in that state.
+s_094_1.wav,sad,"Я не могла навіть, ну, додати щось до розмови.",sad,"Describes inability to contribute to conversation, suggesting helplessness or withdrawal."
+s_095_1.wav,sad,Щось у моєму житті.,neutral,Incomplete fragment about something in their life without clear emotional context.
+s_096_1.wav,sad,В мене не було підтримки ні з чиєї сторони.,sad,"States lack of support from anyone, expressing isolation and abandonment."
+s_097_1.wav,sad,"Ну, він і так це відчував, але просто, можливо, не хотів сприймати.",neutral,Analytical observation about someone's awareness and reluctance without strong emotion.
+s_098_0.wav,sad,"Боже мій, було.",neutral,Brief exclamation without sufficient context to determine clear emotional valence.
+s_099_0.wav,sad,Я два тижні вже трохи відходжу від всього.,sad,"Describes process of recovering from something over two weeks, implying trauma."
+s_100_0.wav,sad,"Наче відкрилась для мене з іншої сторони, вона відкрилась жорстокою.",sad,"Describes someone revealing a cruel side, indicating disappointment and hurt."
+s_101_0.wav,sad,"Я думав, що в нас все вийде і",neutral,Incomplete sentence expressing a past thought without clear emotional valence.
+s_102_0.wav,sad,"Коли ми проходили випробування, я думав, що в нас все вийде і.",neutral,"Factual statement about past expectations during trials, incomplete sentence."
+s_103_0.wav,sad,Але вчорашній вечір показав зовсім інше.,sad,Expresses disappointment that reality differed from expectations.
+s_104_1.wav,sad,Але все ж таки він залишався вірним.,neutral,Objective statement about someone remaining faithful despite circumstances.
+s_105_1.wav,sad,І хоча би спробувати з ним порозумітися.,neutral,"Suggests trying to reach understanding, neither positive nor negative."
+s_106_1.wav,sad,"Ти знаєш, що я хочу з тобою бути з одним і назавжди.",happy,"Expresses desire for eternal togetherness, indicating love and affection."
+s_107_1.wav,sad,"Я не хотіла би думати навіть про те, що я не зможу тобі тебе обійняти.",sad,Expresses fear of not being able to embrace someone.
+s_108_1.wav,sad,що я не зможу тобі тебе обійняти.,sad,"Fragment expressing inability to embrace someone, suggesting loss."
+s_109_1.wav,sad,"Не пройдусь з тобою за руку, не буду цілуватись під дощем.",sad,"Lists romantic activities that won't happen, expressing loss and longing."
+s_110_1.wav,sad,Не пройдусь з тобою знов.,sad,"Simple statement about not walking together again, implying separation."
+s_111_1.wav,sad,не буду цілуватись під дощем.,sad,"Won't kiss in the rain anymore, suggesting romantic loss."
+s_112_0.wav,sad,Чому ви не написали відмову?,angry,Direct question with accusatory tone about not writing a refusal.
+s_113_0.wav,sad,Мені було самому складно.,sad,"Admits personal difficulty, expressing vulnerability and struggle."
+s_114_0.wav,sad,"І поки я слухаю, я дійсно співпереживаю.",neutral,Factual statement about empathizing while listening to someone.
+s_115_0.wav,sad,"Для неї це болюча тема, і точно і поки я слухав, я дійсно співпереживав їй.",sad,Acknowledges painful topic and expresses empathy for someone's suffering.
+s_116_0.wav,sad,"Очевидно, що мені їх ніхто ніколи не дав би і не давав.",sad,Expresses resignation about never receiving something from anyone.
+s_117_1.wav,sad,Лише тебе чекала.,neutral,"Simple statement about waiting for someone, unclear emotional context."
+s_118_1.wav,sad,"Ну, і він це, може, відчути як, е-е,",neutral,"Incomplete, hesitant sentence about someone possibly feeling something."
+s_119_1.wav,sad,"Там була така атмосфера, коли залишились дві-три няні.",neutral,"Describes an atmosphere when few caregivers remained, factual observation."
+s_120_0.wav,sad,"Коли ти мене обіймала, ти відчула щось ніби?",neutral,"Question about feeling something during an embrace, seeking information."
+s_121_1.wav,sad,Тому поки про це навіть не думаю.,neutral,Matter-of-fact statement about not thinking about something currently.
+s_122_1.wav,sad,я поки що не готова. Тому поки про це навіть не думаю.,neutral,Calm explanation of not being ready and not thinking about it.
+s_123_1.wav,sad,Просто в мене не виходило вступати в тащі.,neutral,"Simple statement about difficulty with entering something, no strong emotion."
+s_124_1.wav,sad,"Золота, золота.",happy,Repetition of 'golden' suggests appreciation or admiration.
+s_125_0.wav,sad,Це просто жах.,angry,Expression of horror or strong negative reaction to something.
+s_126_1.wav,sad,"В мене така проблема, я розумію, що за останній рік стало ще в тисячу разів гірше.",sad,"Describes problem and things getting much worse, indicating distress."
+s_127_1.wav,sad,Я просто лежу і мене все трясе. За що?,sad,Physical trembling and questioning 'why' suggests emotional pain and despair.
+s_128_1.wav,sad,"Я розумію, що за останній рік стало ще в тисячу разів гірше.",sad,Recognition that situation has gotten much worse shows dejection.
+s_129_1.wav,sad,Мені дуже обідно. Мені дуже неприємно.,sad,Explicitly states feeling hurt and unpleasant emotions.
+s_130_1.wav,sad,просто не заслужила цього всього від нього.,sad,Feeling undeserving of treatment received indicates hurt and disappointment.
+s_131_1.wav,sad,Хоче я хотіла до нього підступитися.,neutral,"Statement about wanting to approach someone, no clear emotional tone."
+s_132_1.wav,sad,"Поговорити, вирішити.",neutral,"Simple desire to talk and resolve issues, factual tone."
+s_133_1.wav,sad,"Я так цю проблему, а, речі, які",neutral,"Incomplete sentence about addressing a problem, unclear emotional content."
+s_134_1.wav,sad,Я ж йому нічого поганого не зробила.,sad,Defensive statement about not doing harm suggests hurt feelings.
+s_135_1.wav,sad,Я просто захотіла випити.,neutral,"Simple statement about wanting to drink, no emotional charge."
+s_136_1.wav,sad,Мені важко було.,sad,Direct expression of difficulty and hardship.
+s_137_1.wav,sad,"Він знав, що це не боліло ще.",neutral,"Statement about someone's knowledge, factual tone without clear emotion."
+s_138_1.wav,sad,"Я сама справлюся, не не допоможу.",neutral,"Declaration of self-reliance, matter-of-fact tone."
+s_139_1.wav,sad,В мене братик є.,neutral,Simple factual statement about having a brother.
+s_140_1.wav,sad,Я мушу зараз про цю проблему говорити на всю Україну.,sad,Feeling compelled to discuss personal problems publicly suggests distress.
+s_141_1.wav,sad,Хоча лікарі не радили.,neutral,A factual statement about doctors' advice with no clear emotional tone.
+s_142_1.wav,sad,"це те, що все минулося, і цей страшний сон.",sad,"References something terrible that passed and a nightmare, indicating distress."
+s_143_1.wav,sad,"все добре, це плацентарний кровообіг.",neutral,"Medical explanation about placental circulation, factual and informational."
+s_144_1.wav,sad,Зінну народите здорову.,happy,Positive prediction about giving birth to a healthy child.
+s_145_1.wav,sad,"Вагітність - це єдиний механізм, запущений в твоєму організмі.",neutral,Clinical description of pregnancy as a biological mechanism.
+s_146_1.wav,sad,"По, по здоров'ю, по імунітету.",neutral,Mentions health and immunity in a factual manner.
+s_147_1.wav,sad,Я народила здорового хлопчика.,happy,Positive statement about giving birth to a healthy boy.
+s_148_1.wav,sad,Як у вас стосунки з батьками чи чоловіком?,neutral,Neutral question about relationships with parents or husband.
+s_149_1.wav,sad,мені вклалася в голові надовго.,neutral,Simple statement about something staying in memory for long.
+s_150_1.wav,sad,"Бачу, тато на барі замовляє вже коньяк.",neutral,Observational statement about father ordering cognac at a bar.
+s_151_1.wav,sad,Я дуже сильно ревнувала до сестри.,sad,"Expresses strong jealousy toward sister, indicating emotional pain."
+s_152_1.wav,sad,не не кричіть. І я завжди маму питала.,neutral,Request not to shout and mention of asking mother questions.
+s_153_1.wav,sad,"Я таке враження, бо я не ваша дитина. Ви то мене сварите, дивіться.",sad,Expresses feeling of not being loved and being scolded constantly.
+s_154_1.wav,sad,"І я просто жалію, що мені не сказали раніше.",sad,Expresses regret about not being told something earlier.
+s_155_1.wav,sad,"хочеш, щоб він знав, що я його люблю.",happy,"Wants someone to know about love, showing affectionate feelings."
+s_156_1.wav,sad,тато на барі замовляє вже коньяк.,neutral,Observational statement about father ordering cognac at a bar.
+s_157_1.wav,sad,"Мені мама 15 років не казала, що…",sad,"Mentions mother not telling something for 15 years, suggesting hurt."
+s_158_1.wav,sad,"Це не мій тато, але він для мене є тато.",happy,Positive statement about father figure despite biological differences.
+s_159_1.wav,sad,"Я йому ще в той вечір сказала, що",neutral,Incomplete statement about telling someone something that evening.
+s_160_1.wav,sad,"що я його сильно люблю, але я бачу просто, що",happy,"Expresses strong love for someone, showing positive emotion."
+s_161_1.wav,sad,Я втратила дуже багато часу.,sad,"Expresses regret about losing a lot of time, indicating disappointment or sadness."
+s_162_1.wav,sad,коли я відчувала.,neutral,"Incomplete fragment about feeling something, lacks clear emotional context."
+s_163_0.wav,sad,"Сказати, що все буду окей?",neutral,"Question about saying everything will be okay, neutral inquiry without clear emotion."
+s_164_0.wav,sad,"Але, в ті моменти в тебе тоже думки такі",neutral,"Incomplete statement about having thoughts in certain moments, lacks emotional clarity."
+s_165_0.wav,sad,в той період дуже складно було,sad,"States it was very difficult during that period, expressing hardship and distress."
+s_166_0.wav,sad,"І, ми два тижні штори блекаут.",neutral,"Factual statement about blackout curtains for two weeks, no clear emotion."
+s_167_0.wav,sad,"Наталя просто в істериці, постійно волає.",angry,"Describes someone being hysterical and constantly screaming, indicating intense agitation."
+s_168_0.wav,sad,Просто в істериці постійно була.,angry,"States being constantly hysterical, expressing intense emotional disturbance and agitation."
+s_169_0.wav,sad,Плакала нонстопом,sad,"Direct statement about crying nonstop, clearly expressing deep sadness or grief."
+s_170_0.wav,sad,"Плакала, нонстопом. Я розумію, що тоді треба триматися",sad,"Mentions nonstop crying while understanding need to hold on, shows sadness with awareness."
+s_171_0.wav,sad,в моменті просто вух,neutral,"Incomplete fragment mentioning ears in the moment, unclear meaning and emotion."
+s_172_0.wav,sad,"Тобто, десь всі ці архіви є.",neutral,"Factual statement about archives existing somewhere, no emotional content."
+s_173_0.wav,sad,"чекапи, слухали як вже б'ється серце",happy,"Mentions listening to heartbeat during checkups, implies positive anticipation or joy."
+s_174_0.wav,sad,"апарат, щоб слухати. Ну, це було дуже мило. Ти",happy,"Describes something as very sweet/nice, expressing positive emotion and warmth."
+s_175_0.wav,sad,"Ну, це було дуже мило. Ти розказуєш.",happy,"Calls something very sweet and mentions storytelling, shows positive affection."
+s_176_0.wav,sad,"Наталі поділилася, що вона вагітна, дуже цікавий.",happy,"Shares news about pregnancy being very interesting, indicates positive excitement or joy."
+s_177_0.wav,sad,"Ну, коли цей момент може бути?",neutral,"Simple question about timing of a moment, no clear emotional valence."
+s_178_0.wav,sad,"Я зараз мушу це сказати, я мушу це сказати.",neutral,"Repetitive statement about needing to say something, more urgent than emotional."
+s_179_1.wav,sad,"Господи Боже, дуже молода людина.",neutral,"Exclamation about someone being very young, more observational than emotional."
+s_180_1.wav,sad,"34, Господи Боже.",neutral,"Simple exclamation about age 34, factual observation without clear emotion."
+s_181_1.wav,sad,"сижу вагітна на пляжі, плачу",sad,Crying while pregnant on the beach indicates sadness and distress.
+s_182_1.wav,sad,Плачу і кажу,sad,Crying while speaking clearly indicates sadness or emotional pain.
+s_183_1.wav,sad,Нашо я це зробила? Нашо я вийшла за нього заміж?,sad,Regretful questioning about marriage decisions shows sadness and remorse.
+s_184_1.wav,sad,"Але, я відверто тобі скажу, чесно, я",neutral,Incomplete statement about speaking honestly lacks clear emotional content.
+s_185_1.wav,sad,Я виграла це життя.,happy,Declaring victory in life expresses positive achievement and happiness.
+s_186_1.wav,sad,"хочу сказати, що цим жінкам потрібна підтримка.",neutral,Factual statement about women needing support without emotional charge.
+s_187_1.wav,sad,"Так не знаю, не люблю в житті, як його.",angry,Strong dislike expressed with emphasis suggests anger or frustration.
+s_188_1.wav,sad,"Той, хто не б'є щодня. Боже, це жах.",sad,Reference to daily violence as horror expresses distress and sadness.
+s_189_1.wav,sad,розумію. Мені навпаки хочеться підійти і її там настільки обійняти.,happy,Wanting to hug someone shows compassion and positive emotional response.
+s_190_1.wav,sad,Дуже потрібна підтримка.,neutral,Simple statement about needing support without emotional intensity.
+s_191_1.wav,sad,настільки дозволяла по собі їхати,sad,Allowing mistreatment suggests resignation and underlying sadness.
+s_192_1.wav,sad,та бо я не хотіла це проявляти.,neutral,Statement about not wanting to show something lacks clear emotion.
+s_193_1.wav,sad,Я не хотіла це все повторювати,neutral,Simple statement about not wanting to repeat something.
+s_194_1.wav,sad,"не хотіла, щоб люди це відчували.",neutral,Expressing desire to protect others from feelings without strong emotion.
+s_195_1.wav,sad,"щоб люди це відчували, те, що десь відчувала я.",sad,Protecting others from one's own painful feelings indicates underlying sadness.
+s_196_1.wav,sad,Ти маєш бажання це виправляти?,neutral,Direct question about desire to fix something without emotional charge.
+s_197_1.wav,sad,ти це виправляла і я,neutral,Incomplete statement about fixing something lacks clear emotional context.
+s_198_1.wav,sad,Ніби щось тут встромляють,angry,Description of something being forced or inserted suggests irritation.
+s_199_1.wav,sad,поганий. Такий ніби,angry,Calling something bad with emphasis indicates negative judgment and anger.
+s_200_1.wav,sad,цей папірець просто був перед обличчям.,neutral,Simple description of paper placement without emotional content.
+s_201_1.wav,sad,Це ужас просто,angry,Expression of horror or disgust indicates strong negative emotion.
+s_202_1.wav,sad,І я просто злякалася,sad,"Speaker describes being scared or frightened, indicating distress."
+s_203_1.wav,sad,"Я не думала, що такий скандал",sad,Expresses disappointment about not expecting such a scandal.
+s_204_1.wav,sad,Наречена повинна виплакати два глечики сліз,sad,"References crying tears, directly indicating sadness or sorrow."
+s_205_1.wav,sad,"От, я її просто помагаю.",neutral,Simple statement about helping someone without emotional content.
+a_001_0.wav,angry,У мене прекрасний зір.,neutral,Factual statement about having good eyesight.
+a_002_1.wav,angry,"Боже, дівчата.",neutral,Mild exclamation addressing girls without clear emotional valence.
+a_003_1.wav,angry,Бороду заховай,neutral,Simple instruction to hide beard without emotional context.
+a_004_1.wav,angry,Жорсткіше Артур,angry,Demanding someone be harsher suggests frustration or aggression.
+a_005_1.wav,angry,Чому ти так довго терпіла?,sad,Question about enduring something for long time implies sympathy.
+a_006_1.wav,angry,Вас штормить від мене!,angry,Aggressive statement about causing disturbance shows hostility.
+a_007_1.wav,angry,Я офігєла.,angry,Strong expression of being shocked or outraged.
+a_008_1.wav,angry,Хочу подивитися в твій холодильник.,neutral,Simple desire to look in refrigerator without emotional tone.
+a_009_1.wav,angry,"Оля, ти вже вся мокра",neutral,Observational comment about someone being wet.
+a_010_1.wav,angry,"Я знаю, що це методика іншого автора.",neutral,Factual statement about knowing a different author's methodology.
+a_011_1.wav,angry,"У людини, явно, не добре з головою.",angry,Negative judgment about someone's mental state shows disapproval.
+a_012_1.wav,angry,Вона не виглядає на сім тисяч баксів в місяць.,neutral,Observational comment about someone's appearance relative to income.
+a_013_1.wav,angry,Я з авокадо нічого їсти не буду.,neutral,Simple statement of food preference without emotional content.
+a_014_1.wav,angry,Мені не потрібно на них кричати чи бити.,neutral,Statement about not needing to shout or hit.
+a_015_1.wav,angry,щоб вони мені допомогли помити посуд.,neutral,Request for help with dishes without emotional emphasis.
+a_016_1.wav,angry,А якщо до тебе дівчата в гості прийдуть?,neutral,"A simple question about girls visiting, no strong emotional tone."
+a_017_1.wav,angry,"Дівчата, ви що, вабшє",angry,Dismissive tone with 'вабшє' suggests irritation or frustration.
+a_018_1.wav,angry,"Блін, це ваші бутерброди з красною рибою.",neutral,Matter-of-fact statement about sandwiches with red fish.
+a_019_1.wav,angry,"Ну, це балкон, атчепіться з мене",angry,Defensive response with 'атчепіться з мене' shows irritation.
+a_020_1.wav,angry,Де термін придатності на бутербродах?,neutral,"Direct question about expiration date, no emotional charge."
+a_021_1.wav,angry,Де термін придатності?,neutral,Simple question about expiration date.
+a_022_0.wav,angry,"Взагалі де дитяче, ну де?",neutral,"Question about children's items location, matter-of-fact tone."
+a_023_1.wav,angry,Навіщо ти це кажеш при дитині?,angry,Critical question about inappropriate behavior around a child.
+a_024_0.wav,angry,А чого два?,neutral,Simple question asking why there are two.
+a_025_1.wav,angry,"Про які ти, напевне, і не чула, Вікуся.",neutral,Statement about someone likely not hearing about something.
+a_026_1.wav,angry,Це жах.,angry,Expression of horror or strong disapproval.
+a_027_1.wav,angry,Я взагалі-то до тебе в гості приїхала.,neutral,Factual statement about visiting someone.
+a_028_1.wav,angry,А на городи полоти,neutral,Statement about going to weed gardens.
+a_029_1.wav,angry,Час дома він не проводив.,sad,"Implies someone's absence from home, suggesting loneliness or neglect."
+a_030_1.wav,angry,А що тут такого?,neutral,"Question asking what's wrong, neutral inquiry tone."
+a_031_1.wav,angry,"Так, я там відпочивала і не раз.",neutral,Factual statement about resting somewhere multiple times.
+a_032_1.wav,angry,Він тобі зраджував?,neutral,"Direct question about infidelity, matter-of-fact delivery."
+a_033_1.wav,angry,Півтора року дитина без мами,sad,Statement about child being without mother evokes sadness.
+a_034_1.wav,angry,Просто в тобі недостатньо жіночності.,angry,"Critical statement about lacking femininity, insulting tone."
+a_035_0.wav,angry,"50, блядь, Мішель.",angry,Profanity expressing frustration or anger.
+a_036_0.wav,angry,Та ти на вулицю виходиш,neutral,A simple statement about going outside with no clear emotional tone.
+a_037_0.wav,angry,Люди їздять на машинах.,neutral,Factual observation about people driving cars.
+a_038_1.wav,angry,Вона тебе відбила в нього.,angry,"Accusatory statement about someone being taken away, suggesting conflict or betrayal."
+a_039_0.wav,angry,"Ну, так, чувак, та людина впахує, блін.",neutral,"Casual observation about someone working hard, informal but not emotional."
+a_040_0.wav,angry,І сфоткати і послати усі,neutral,"Instruction to photograph and send, matter-of-fact tone."
+a_041_1.wav,angry,А то не треба було приходити,angry,"Critical statement suggesting someone shouldn't have come, expressing disapproval."
+a_042_1.wav,angry,Я кістки не вибирала з риби.,neutral,"Simple statement about not removing fish bones, factual tone."
+a_043_0.wav,angry,"Я не розумію. Ви з, ви шукали зрадника.",neutral,"Confused statement about looking for a traitor, questioning but not emotional."
+a_044_1.wav,angry,"Вези мене бистреє до дому, потому что буде біда.",angry,"Urgent demand to drive faster with threat of trouble, showing agitation."
+a_045_1.wav,angry,"Я бачу, ти поставила мені взагалі всі трійки.",angry,"Accusatory statement about receiving all threes (grades), expressing dissatisfaction."
+a_046_1.wav,angry,ти просто зливаєш конкурентів.,angry,"Accusation of eliminating competitors, suggesting unfair behavior."
+a_047_1.wav,angry,Я маю це змінити зараз.,neutral,"Statement of intention to change something now, determined but neutral."
+a_048_1.wav,angry,Як ви наважились на третю дитину?,neutral,"Question about having a third child, curious but not emotional."
+a_049_1.wav,angry,Я бачу і чую.,neutral,Simple statement of perception abilities.
+a_050_1.wav,angry,"Я тебе залишила ще п'ять балів, щоб ти розвивалася.",neutral,"Explanation about leaving points for development, instructional tone."
+a_051_1.wav,angry,А чому не сім?,neutral,Simple question about why not seven.
+a_052_0.wav,angry,Це принциповий момент.,neutral,Statement about something being a matter of principle.
+a_053_1.wav,angry,Ну що? Що ти щас мені скажеш?,angry,Demanding question with confrontational tone asking what someone will say.
+a_054_1.wav,angry,Ну що?,neutral,Simple questioning expression.
+a_055_1.wav,angry,Що ти сейчас мені скажеш?,angry,Confrontational question demanding an explanation from someone.
+a_056_1.wav,angry,"Інна на що ти знову прибідняєшся, що це мало?",angry,Accusatory tone questioning someone's complaints about something being insufficient.
+a_057_1.wav,angry,А багато? То це скільки взагалі?,neutral,Simple factual question asking about quantity or amount.
+a_058_0.wav,angry,"Не жорстоко, але жорстка.",neutral,Descriptive statement making a distinction between two similar concepts.
+a_059_1.wav,angry,"долі секунди, ваза її полетить в морду.",angry,Threatening language about throwing something at someone's face.
+a_060_1.wav,angry,Ти нас зустріла на кухні з грязними кастрюлями,angry,Accusatory statement about being greeted with dirty dishes.
+a_061_1.wav,angry,Ти не должна була так сделать со своей дитиною.,angry,Critical statement about inappropriate treatment of a child.
+a_062_1.wav,angry,Поставлю їй два.,neutral,Simple declarative statement about giving someone a grade.
+a_063_1.wav,angry,"Блін, ну воно на вас нападе?",neutral,Questioning whether something will attack them.
+a_064_0.wav,angry,Або може навчити самостійності?,neutral,Neutral suggestion about teaching independence.
+a_065_1.wav,angry,"Це мені каже людина, як.",neutral,Incomplete statement referencing what someone is telling them.
+a_066_1.wav,angry,яка з порога загнабила мене за мої 64 кг?,angry,Accusatory question about being criticized for their weight.
+a_067_0.wav,angry,"А ви як, наважилися?",neutral,Simple question asking how they dared to do something.
+a_068_0.wav,angry,Це якась така манія величі.,angry,Critical statement calling something a delusion of grandeur.
+a_069_1.wav,angry,Вони мені не потрібні.,angry,Dismissive statement rejecting need for something or someone.
+a_070_1.wav,angry,Я тупо в шоці,sad,"Expression of being in shock, indicating emotional distress."
+a_071_1.wav,angry,"Чесно, дівчонки, я тупо в шоці.",sad,"Honest admission of being shocked, showing emotional vulnerability."
+a_072_1.wav,angry,Ти що стола не могла десь знайти?,angry,Sarcastic question criticizing someone for not finding a table.
+a_073_0.wav,angry,А чому це нормально?,angry,Challenging question questioning why something is considered normal.
+a_074_1.wav,angry,В мене шок просто з цього всього.,sad,Expression of shock and being overwhelmed by everything.
+a_075_1.wav,angry,В мене була десь отака залисина.,neutral,Factual statement about having a bald spot somewhere.
+a_076_0.wav,angry,Та мені ця навіть на думку не спадало.,neutral,A simple statement about something not occurring to the speaker.
+a_077_0.wav,angry,Ну ти ж не отригнеш щас?,neutral,A casual question with no strong emotional content.
+a_078_1.wav,angry,Ти для мене взагалі не мама.,angry,Direct rejection of parental relationship shows strong anger or resentment.
+a_079_1.wav,angry,Вона тобі угольки в кальяні перевертає,neutral,Factual description of someone's action with hookah coals.
+a_080_1.wav,angry,Це взагалі днище.,angry,Calling something 'rock bottom' expresses strong negative judgment and frustration.
+a_081_0.wav,angry,Ти п'яна людина,angry,Accusatory statement about someone being drunk shows disapproval and anger.
+a_082_0.wav,angry,Перебирати не треба.,neutral,Simple directive statement without emotional charge.
+a_083_0.wav,angry,"Давай їж, я платив, щоб дарма за це.",angry,Frustrated tone about paying for food that should be eaten.
+a_084_0.wav,angry,Давай їж.,neutral,Simple command to eat without emotional context.
+a_085_1.wav,angry,В тебе був брудний холодильник. В тебе були там багато просрочки.,angry,Critical accusation about dirty refrigerator and expired food shows anger.
+a_086_0.wav,angry,Ви чого туда лізите?,angry,Questioning someone's intrusive behavior with irritated tone.
+a_087_1.wav,angry,"Ти цілий день нам говорила про те, що в тебе троє дітей.",angry,Frustrated complaint about repetitive talk about having three children.
+a_088_0.wav,angry,"Та взагалі, щоб дома того не було.",angry,Expressing strong desire for something not to be at home.
+a_089_0.wav,angry,Ви ж можете собі дозволити?,neutral,Simple question about someone's financial capability.
+a_090_0.wav,angry,Що ви взагалі маєте на увазі?,angry,Frustrated questioning showing confusion and irritation about someone's meaning.
+a_091_0.wav,angry,"Треба зробити так, аби не виникало бажання.",neutral,Practical suggestion about preventing unwanted desires.
+a_092_1.wav,angry,Я не можу слухати цей брєд.,angry,Strong rejection of listening to something called nonsense shows anger.
+a_093_0.wav,angry,"Дмитро, я знаю, що ти мрійник.",neutral,Simple acknowledgment of someone being a dreamer.
+a_094_0.wav,angry,Ти взагалі знаєш правила гри?,angry,Challenging question about game rules shows frustration or annoyance.
+a_095_0.wav,angry,"Та, короче, е-е,",neutral,Incomplete hesitation without clear emotional content.
+a_096_1.wav,angry,Добре влаштувались.,neutral,Simple factual statement about settling in well.
+a_097_1.wav,angry,А Ксюша просто каралєва.,happy,Praising someone as a queen shows positive admiration.
+a_098_1.wav,angry,тупо прогибаться всім під маму.,angry,Criticizing submissive behavior with harsh language shows frustration.
+a_099_0.wav,angry,Три роки в жіночому кварталі.,neutral,Factual statement about time spent in women's quarters.
+a_100_0.wav,angry,Так підніми таз.,neutral,Direct instruction without emotional content.
+a_101_1.wav,angry,"Це відповідальність твоя, а не річ твоя.",neutral,Statement about responsibility without emotional charge.
+a_102_1.wav,angry,Вона мене цим вибісила,angry,Explicitly states being infuriated by someone's actions.
+a_103_0.wav,angry,"Все, я написав.",neutral,Simple completion statement without emotional content.
+a_104_1.wav,angry,"Ну, чесно, я взагалі в шоці з цієї мамаші.",angry,Being shocked and critical about someone's mother shows strong displeasure.
+a_105_1.wav,angry,І ти падло блін просто,angry,Using harsh insult 'падло' shows clear anger.
+a_106_1.wav,angry,"І ти падла, блін, просто пішов наліво.",angry,Calling someone 'падла' and criticizing their actions shows anger.
+a_107_1.wav,angry,Не хватає нам на світі ще одної такої.,angry,Sarcastic comment implying the world doesn't need another such person.
+a_108_1.wav,angry,"Ну, це капець.",angry,Expression of extreme disapproval or frustration.
+a_109_1.wav,angry,І вона його вчить просто бути каблуком.,angry,Criticizing someone for teaching submissive behavior shows disapproval.
+a_110_0.wav,angry,Та давай бо партій.,neutral,Casual suggestion about parties without emotional weight.
+a_111_1.wav,angry,Не відповідай за мене.,angry,Sharp command telling someone not to speak for them.
+a_112_1.wav,angry,"Боже, ну її мама - це просто днище.",angry,Harsh criticism calling someone's mother the worst possible thing.
+a_113_0.wav,angry,"Йой, та що ти тої руки вцепилася",angry,Frustrated question about someone grabbing onto hands.
+a_114_0.wav,angry,"Що в них, ну,",neutral,Incomplete questioning statement without clear emotional direction.
+a_115_1.wav,angry,"На, хіба і той all inclusive вдома?",neutral,Question about all-inclusive services at home without emotional charge.
+a_116_1.wav,angry,"Це не жінка, коли тебе 30 плюс.",neutral,A factual statement about age and gender without clear emotional content.
+a_117_0.wav,angry,"Та ні, не все з нею добре.",sad,Expresses concern that not everything is well with someone.
+a_118_0.wav,angry,Але людина сивіє.,neutral,A simple factual observation about people going gray.
+a_119_0.wav,angry,Ви робите все.,neutral,A straightforward statement about someone doing everything.
+a_120_0.wav,angry,"Ви навіть не розумієте, що вам тільки що сказав.",angry,Accusatory tone suggesting the other person doesn't understand what was said.
+a_121_0.wav,angry,Ви навіть не розумієте,angry,Frustrated statement about someone not understanding.
+a_122_0.wav,angry,У вас якесь своє бачення!,angry,Confrontational tone expressing disagreement with someone's perspective.
+a_123_0.wav,angry,Ви вже мене бусите,angry,Direct expression of annoyance about being bothered.
+a_124_0.wav,angry,А чому ви хочете щось довести комусь?,angry,Challenging question with irritated undertone about proving something.
+a_125_0.wav,angry,"То тож не, різне?",neutral,A questioning statement without clear emotional valence.
+a_126_1.wav,angry,"Якщо ти будеш кричати,",neutral,Incomplete conditional statement without emotional context.
+a_127_1.wav,angry,"Якщо ти будеш кричати, ми гратися не будемо.",angry,A threat or ultimatum about not playing if shouting continues.
+a_128_1.wav,angry,І який тоді вихід з цієї ситуації?,sad,Expresses concern or distress about finding a solution.
+a_129_1.wav,angry,"Ти не чула, що я приготувала, це тоже.",neutral,A factual statement about preparation and hearing.
+a_130_1.wav,angry,Від тебе сьогодні стільки вже брехні.,angry,Direct accusation of lying shows anger and frustration.
+a_131_1.wav,angry,"Просто, бо він її пожалів.",neutral,Simple explanation about someone taking pity without emotional charge.
+a_132_1.wav,angry,Чого ти до мене прицепилася?,angry,Defensive question expressing irritation about being picked on.
+a_133_1.wav,angry,Ти чого ти до мене прицепилася?,angry,Repeated defensive question showing increased irritation about harassment.
+a_134_1.wav,angry,Мені таке не подобається. Я взагалі не зрозуміла цього жарту.,angry,Clear expression of dislike and confusion about an unpleasant joke.
+a_135_1.wav,angry,"Я в цей момент така думаю, ну, йо, ну, та ви що? Ну, мені неприємно було це чути, взагалі.",angry,Extended expression of discomfort and displeasure about hearing something unpleasant.
+a_136_1.wav,angry,"Ну, мені неприємно було це чути взагалі",sad,Expressing discomfort and unpleasantness about hearing something indicates negative emotional state.
+a_137_1.wav,angry,"Конечно, та тою розою ходиш, махаєш перед нами.",angry,Accusatory tone with criticism about waving something around suggests irritation or anger.
+a_138_1.wav,angry,"І після того ходити? Конечно, ти тою разою ходиш, махаєш перед нами.",angry,Similar accusatory statement with critical tone about someone's behavior indicates anger.
+a_139_1.wav,angry,"Можливо, мені хотілось би, щоб там була моя троянда, але я розуміла, що її там немає.",sad,Wistful longing for something that isn't there combined with acceptance shows sadness.
+a_140_1.wav,angry,"Коли я поїхала забирати свою собаку, він мені чуть шию не зламав.",angry,Describing someone almost breaking their neck suggests intense anger about aggressive behavior.
+a_141_0.wav,angry,"Я не розумів, ну, типу, в мене розрив шаблонів. Чому так, ну?",neutral,"Confusion and questioning without clear emotional direction, more puzzled than emotional."
+a_142_0.wav,angry,"Ну, ти знаєш, що після таких моментів",neutral,Incomplete statement about knowing something after certain moments lacks clear emotional content.
+a_143_1.wav,angry,"Що я маю питати в чоловіка, я маю щось робити?",neutral,Direct questions about what to ask or do are factual inquiries.
+a_144_1.wav,angry,Що я маю питати в чоловіка?,neutral,Simple question about what to ask a man is straightforward inquiry.
+a_145_1.wav,angry,Я просто в шоці,sad,Being in shock typically indicates distress or negative emotional impact.
+a_146_1.wav,angry,"Знову дивиться, дивиться, дивиться.",neutral,Repetitive observation about looking without clear emotional context is factual description.
+a_147_0.wav,angry,"Я не можу сказати, що вона була в захваті прямо величезному.",neutral,Objective statement about someone not being greatly delighted is observational.
+a_148_0.wav,angry,була в захваті прямо у величезному.,happy,Being in great delight or rapture indicates positive emotional state.
+a_149_0.wav,angry,"Якось не відчув, що вона була там супер щасливою.",sad,Not feeling that someone was super happy suggests disappointment or sadness.
+a_150_0.wav,angry,"Ну да, я розумію. Але",neutral,Agreement followed by incomplete thought shows neutral conversational response.
+a_151_0.wav,angry,Я дуже не люблю лягати спати з невирішеними якимись проблемами.,sad,Disliking going to sleep with unresolved problems indicates stress or negative feelings.
+a_152_1.wav,angry,Це був початок стосунків.,neutral,Factual statement about the beginning of a relationship is informational.
+a_153_1.wav,angry,Чим ти займався?,neutral,Direct question about what someone was doing is straightforward inquiry.
+a_154_1.wav,angry,Він досі стоїть з цьою капустай.,neutral,Observational statement about someone standing with cabbage is factual description.
+a_155_1.wav,angry,"Я не знаю, хто це був.",neutral,Statement of not knowing who someone was is simple factual admission.
+a_156_1.wav,angry,Що я маю казати?,neutral,"A straightforward question about what to say, no clear emotional tone."
+a_157_0.wav,angry,От главне питання.,neutral,"Stating that something is the main question, factual tone."
+a_158_0.wav,angry,ти даже не попиталась,angry,Accusatory tone expressing frustration that someone didn't even ask.
+a_159_0.wav,angry,Я ж не не робот,angry,"Defensive statement asserting human nature, showing irritation."
+a_160_0.wav,angry,Я не могу отак от взять і переключитись.,angry,"Expressing inability to just switch emotions, shows frustration or distress."
+a_161_0.wav,angry,мене ще в нутрі ще ще до сих пор вирує.,angry,"Describes internal turmoil still raging, indicating strong negative emotion."
+a_162_0.wav,angry,Чи є з таким відношенням,neutral,"Incomplete question about attitude or relationship, neutral inquiry."
+a_163_0.wav,angry,"Короче, це не моє.",neutral,"Simple statement of dismissal, matter-of-fact tone."
+a_164_0.wav,angry,Може вона і не вгадала би.,neutral,Hypothetical statement about someone's ability to guess correctly.
+a_165_0.wav,angry,"Буду перечисляти, я не знаю, 1 001 блюдо.",happy,"Enthusiastic tone about listing many dishes, shows excitement."
+a_166_0.wav,angry,"Те, що я і думав.",neutral,"Confirmation of expected outcome, matter-of-fact statement."
+a_167_0.wav,angry,Леопардовий мішок,neutral,"Simple description of a leopard bag, no emotional content."
+a_168_0.wav,angry,"Що тут поганого, я не розумію.",neutral,"Question expressing lack of understanding, neutral inquiry."
+a_169_0.wav,angry,Я тебе дуже сильно прошу.,sad,Pleading tone with emphasis suggests desperation or emotional need.
+a_170_0.wav,angry,Я можу оплачувати їх,neutral,"Statement about ability to pay, factual tone."
+a_171_0.wav,angry,"А, а як тоді відкладати кошти?",neutral,"Question about saving money, neutral inquiry."
+a_172_0.wav,angry,"або я тебе слухаю, або я біжу",neutral,"Presenting two options, matter-of-fact choice."
+a_173_1.wav,angry,То я тобі не буду допомагати.,angry,"Conditional refusal to help, shows irritation or displeasure."
+a_174_1.wav,angry,"йому показати, що мені неприємно.",angry,"Wanting to show displeasure to someone, indicates negative emotion."
+a_175_1.wav,angry,"І я не знала, чи хочу я взагалі з ним говорити.",sad,Uncertainty about wanting to talk shows emotional confusion or sadness.
+a_176_0.wav,angry,Вона думала тільки про себе.,neutral,A factual observation about someone's self-centered thinking without emotional charge.
+a_177_0.wav,angry,Мені оце обідно.,sad,Expression of feeling hurt or offended using the word 'обідно'.
+a_178_1.wav,angry,Як це?,neutral,Simple question asking for clarification or explanation.
+a_179_0.wav,angry,Найди цей виноград в листі.,neutral,Direct instruction to find grapes in a list.
+a_180_0.wav,angry,"Найди цей виноград в листі, обріж це листя.",neutral,Sequential instructions about finding grapes and cutting leaves.
+a_181_0.wav,angry,Я міг тільки надіятись.,sad,Expression of helplessness and resignation about only being able to hope.
+a_182_0.wav,angry,"Ти ж головна, ти ж мала все запам'ятати.",angry,Accusatory tone blaming someone for failing their responsibilities.
+a_183_0.wav,angry,Вона тільки говорить.,neutral,Simple statement about someone's behavior without emotional context.
+a_184_0.wav,angry,"В один день я чую, що мало грошей.",sad,Complaint about financial problems suggesting frustration or worry.
+a_185_0.wav,angry,"В один день я чую, що мало грошей, в інший день я чую, що не приготував сніданок.",sad,Extended complaint about daily problems showing ongoing frustration.
+a_186_1.wav,angry,"Він не звертав увагу на мій комфорт, в цілому.",sad,Statement about lack of consideration shows hurt feelings.
+a_187_1.wav,angry,"Ти взявся за м'ясо, ти не міг це зробити нормально?",angry,Critical questioning with frustration about someone's poor performance.
+a_188_1.wav,angry,"Люди, які люблять все ж таки один одного, в них не повинно бути таке.",sad,Disappointed observation about relationship problems between people who love each other.
+a_189_0.wav,angry,Чому вони не завершилися?,neutral,Simple question asking why something didn't finish.
+a_190_0.wav,angry,"Якщо тобі потрібно вниз, ми можемо в будь-який момент тебе спустити.",neutral,Polite offer of assistance without emotional charge.
+a_191_1.wav,angry,Ти будеш підбирати слова,neutral,Statement about future word choice without clear emotional context.
+a_192_1.wav,angry,Скільки вже можна з нею говорити?,angry,Frustrated question expressing impatience about ongoing communication.
+a_193_1.wav,angry,"Я не розумію, скільки вже можна з нею говорити?",angry,Expression of confusion and frustration about continued conversations.
+a_194_1.wav,angry,"розізлило, бо я не розумію, скільки вже можна з нею говорити.",angry,Clear statement of anger about not understanding ongoing communication issues.
+a_195_1.wav,angry,Скільки можна,angry,Incomplete but clearly frustrated expression showing impatience.
+a_196_0.wav,angry,"Ні, 100 відсотків ні.",angry,Strong emphatic rejection with '100 відсотків ні' shows frustration or anger.
+a_197_0.wav,angry,Які квіти? Тут нема квітів,neutral,Matter-of-fact statement about absence of flowers without emotional charge.
+a_198_0.wav,angry,"Ти нормальна, нарди?",angry,Questioning someone's sanity with 'нормальна' in this context shows irritation.
+a_199_1.wav,angry,Задовбав ти мене зі своїми нардами кожен вечір грати.,angry,Direct expression of being fed up with someone's behavior.
+a_200_0.wav,angry,А нащо вони нам треба?,neutral,Simple question about necessity without clear emotional tone.
+a_201_1.wav,angry,це пам'ять про нашу першу спільну подорож.,happy,Positive reference to shared travel memory suggests warmth or fondness.
+a_202_0.wav,angry,Тут є палка. І палка з трьома листочками,neutral,Factual description of objects without emotional content.
+a_203_0.wav,angry,то можеш їх одразу кудись винести,neutral,"Practical suggestion about removing items, matter-of-fact tone."
+a_204_1.wav,angry,Яка ти криса.,angry,Calling someone a 'rat' is clearly an insult expressing anger.
+a_205_1.wav,angry,Звідки вона взялася? 15 років прийшло.,neutral,Questioning statement about time passage without strong emotional valence.
+a_206_1.wav,angry,"Я не знаю, з якими мотивами. Я не знаю для чого.",neutral,"Expression of uncertainty about motives, factual tone."
+a_207_1.wav,angry,"Але все рівно ця біль протягом твого життя,",sad,Reference to pain throughout life suggests sadness or melancholy.
+a_208_1.wav,angry,"Не була б я вагітна, ми вже б тоді не були разом.",sad,Hypothetical about relationship ending due to pregnancy shows sadness.
+a_209_1.wav,angry,скільки я собі не дозволяла ні злитися,sad,Discussing self-denial of anger suggests emotional suppression and sadness.
+a_210_0.wav,angry,Та я не про те,neutral,Simple clarification statement without emotional charge.
+a_211_0.wav,angry,Де Франсуа?,neutral,Direct question asking for someone's location.
+a_212_0.wav,angry,Де він?,neutral,Simple follow-up question about location.
+a_213_0.wav,angry,"Думаєш, навчила говорити по-нашому і все?",angry,Dismissive rhetorical question shows frustration or irritation.
+a_214_0.wav,angry,Татко благословить.,happy,Reference to father's blessing suggests positive anticipation or joy.
+a_215_1.wav,angry,"Значить, так, це мій хлопець.",happy,Confirmation of romantic relationship status shows positive emotion.
+a_216_1.wav,angry,Я його кохаю. Це мій вибір і,happy,Expression of love shows positive emotional attachment and affection.
+a_217_1.wav,angry,і ти повинен його поважати.,neutral,Statement about respect is factual without strong emotional coloring.
+a_218_1.wav,angry,"Тату, заспокойся.",neutral,"Calm request for someone to settle down, relatively emotionally flat."
+a_219_0.wav,angry,Що ви зробили з моїм Франсуа?,angry,Demanding question about what was done suggests upset or accusatory tone.
+a_220_1.wav,angry,"Сталося невелике непорозуміння. Так, мамо?",neutral,Diplomatic explanation of a misunderstanding without strong emotional charge.
+a_221_0.wav,angry,"Вже підгоріли. Ах, ви зрадники.",angry,Calling someone traitors shows clear anger and accusation.
+a_222_0.wav,angry,Я вимагаю надати мені нормального зятя.,angry,Demanding a proper son-in-law shows frustration and strong displeasure.
+a_223_0.wav,angry,А не якусь підробку.,angry,Rejecting something as fake continues the angry sentiment from previous statement.
+a_224_0.wav,angry,Не смій ганьбити велику поезію!,angry,Forbidding someone from disgracing poetry shows passionate anger and indignation.
+h_001_0.wav,happy,А в мене теж є вертушка тут така.,neutral,Factual statement about having something without emotional emphasis.
+h_002_1.wav,happy,Це було круто.,happy,Saying something was cool expresses positive satisfaction and enjoyment.
+h_003_1.wav,happy,потім побачимо.,neutral,Simple future statement without emotional content.
+h_004_0.wav,happy,"Роман Щербан, ахаха.",happy,Laughter (ahahaha) indicates amusement and positive mood.
+h_005_1.wav,happy,"Здається, він тут уже задобрений.",neutral,Observational comment about someone being prepared seems factual.
+h_006_1.wav,happy,"Чесно, я, ну, мені реально було",neutral,Incomplete honest statement without clear emotional direction.
+h_007_1.wav,happy,Ти що мені таке кажеш?,angry,Questioning what someone is saying suggests irritation or disbelief.
+h_008_1.wav,happy,"Дякую, що ти в мене є, коханий.",happy,Thanking beloved for being there expresses gratitude and love.
+h_009_1.wav,happy,"Приємний бонус, для мене.",happy,Pleasant bonus indicates satisfaction and positive feelings.
+h_010_0.wav,happy,"ти що, ми ж подбали про вас",neutral,Statement about taking care of someone is factual without emotional charge.
+h_011_1.wav,happy,Куди тут без цього?,neutral,Rhetorical question about necessity seems matter-of-fact.
+h_012_1.wav,happy,"Звичайно, куди ж тут без цього?",neutral,Matter-of-fact rhetorical question without strong emotional tone.
+h_013_0.wav,happy,"Ой, ой, мені звонять",neutral,Simple statement about receiving a phone call with mild surprise.
+h_014_1.wav,happy,Молодець.,happy,Positive praise expression showing approval or satisfaction.
+h_015_1.wav,happy,Молодець! Вона дуже любить такі загадки.,happy,Enthusiastic praise with affectionate comment about someone's preferences.
+h_016_0.wav,happy,Коли починаємо речення?,neutral,Direct question about timing without emotional content.
+h_017_0.wav,happy,"Е, не діставай швидше.",angry,Dismissive command with impatient tone telling someone not to bother.
+h_018_1.wav,happy,"Ми сіли в машину, і він каже: ""Ну шо в готель"".",neutral,Factual narration of events without emotional coloring.
+h_019_1.wav,happy,"Лайк, Аделька",happy,Positive social media interaction with affectionate nickname.
+h_020_1.wav,happy,"Весь час проводжу з дітьми, нарешті.",happy,Expression of contentment and satisfaction with family time.
+h_021_1.wav,happy,В якому тобі класно,happy,Positive comment about someone feeling good or comfortable.
+h_022_0.wav,happy,"Так, це я її прикрашала.",neutral,Simple confirmation statement about decorating activity.
+h_023_1.wav,happy,"А, ні.",neutral,Brief negative response without emotional intensity.
+h_024_1.wav,happy,І мені треба відбити цього хлопця.,neutral,Matter-of-fact statement about needing to defend someone.
+h_025_1.wav,happy,"сім років - це дуже, дуже багато.",sad,Emphasizes long duration with repetition suggesting weariness or burden.
+h_026_1.wav,happy,"Блін, це офігенно.",happy,Enthusiastic exclamation expressing amazement and positive excitement.
+h_027_1.wav,happy,"У нас уже ідеальна сім'я, на мою думку.",happy,Positive assessment expressing satisfaction with family situation.
+h_028_1.wav,happy,Все добре.,neutral,Standard reassuring phrase without strong emotional content.
+h_029_1.wav,happy,Це двоє дітей зразу.,neutral,Factual statement about number of children.
+h_030_1.wav,happy,"на волоссях. Я не зрозуміла, спочатку передивлялася декілька хвилин.",neutral,Descriptive account of confusion without strong emotional valence.
+h_031_1.wav,happy,Поліція вже нова фішка,neutral,Observational comment about police without clear emotional tone.
+h_032_0.wav,happy,Ви навіть для Йорка знайшли власну квартиру.,neutral,Factual statement about finding an apartment for York.
+h_033_1.wav,happy,Не вистачало тільки коробочки з каблучкою.,neutral,Matter-of-fact observation about missing a ring box.
+h_034_1.wav,happy,День був дуже цікавий і,happy,Describes the day as very interesting with positive tone.
+h_035_1.wav,happy,Мені хочеться завтра сходити в церкву.,neutral,Simple statement of desire to go to church.
+h_036_1.wav,happy,Я нафарбована,neutral,Factual statement about being painted/made up.
+h_037_0.wav,happy,Ще шось буде,neutral,Incomplete statement suggesting something else will happen.
+h_038_0.wav,happy,"Ну, слава Богу, поки здоров'я хватає.",happy,Expresses gratitude and relief about having health.
+h_039_1.wav,happy,Картопля дуже смачна.,happy,Positive comment about potatoes being very tasty.
+h_040_1.wav,happy,Бабуся мене дуже любила.,happy,Warm memory of grandmother's love expressed positively.
+h_041_0.wav,happy,"Короче, значить,",neutral,Incomplete filler phrase with no emotional content.
+h_042_0.wav,happy,Бути супертатом стане новим трендом.,neutral,Factual prediction about a future trend.
+h_043_0.wav,happy,Всі шляхи ведуть в Японію.,neutral,Neutral statement about paths leading to Japan.
+h_044_0.wav,happy,Скажи.,neutral,Simple imperative command without emotional tone.
+h_045_0.wav,happy,Я взяв додому трошки.,neutral,Matter-of-fact statement about taking something home.
+h_046_0.wav,happy,"Дві, дві можна.",neutral,Simple numerical statement about quantity allowed.
+h_047_0.wav,happy,то закінчиться коротким замиканням.,neutral,Technical statement about ending in short circuit.
+h_048_0.wav,happy,"Ну, мені капець цікаво.",happy,Strong expression of curiosity with enthusiastic tone.
+h_049_0.wav,happy,Гарна подяка за такий гарний стіл,happy,Positive appreciation for a good table/meal.
+h_050_0.wav,happy,Ти ви як хорошо же.,happy,Complimentary expression about how good something is.
+h_051_0.wav,happy,Але і таке було,neutral,Incomplete factual statement acknowledging something happened.
+h_052_1.wav,happy,Почитати книжечку.,neutral,"A simple, matter-of-fact statement about reading a book."
+h_053_0.wav,happy,"А ну, Даша хоче їй рибку з'їсти?",neutral,A casual question about someone wanting to eat fish.
+h_054_1.wav,happy,Що там будуть лізбіянки,neutral,A factual question about what will be there.
+h_055_0.wav,happy,Дякую вам.,happy,Expressing gratitude with a polite thank you.
+h_056_1.wav,happy,У мене двоє прекрасних діток.,happy,Proud and positive statement about having wonderful children.
+h_057_0.wav,happy,Я курочка полетіла от сюда.,neutral,A playful but neutral statement about being a chicken flying.
+h_058_1.wav,happy,Вау.,happy,An exclamation of amazement or excitement.
+h_059_1.wav,happy,Оце сервіс.,neutral,A brief comment about service without clear emotional tone.
+h_060_1.wav,happy,"Дякую, велике.",happy,Expressing gratitude warmly.
+h_061_1.wav,happy,"До побачення, дякую велике.",happy,A polite farewell with gratitude.
+h_062_1.wav,happy,"Як шведська лінія в ресторані, безкоштовна.",happy,Positive comparison to a free restaurant buffet.
+h_063_1.wav,happy,Не треба пам'ятати дати.,neutral,A factual statement about not needing to remember dates.
+h_064_0.wav,happy,Одним прокорупціонером.,neutral,A neutral reference to a corrupt person.
+h_065_1.wav,happy,Запивай.,neutral,A simple instruction to drink something.
+h_066_0.wav,happy,Кльово.,happy,Positive exclamation expressing something is cool.
+h_067_0.wav,happy,"Дякую, дякую.",happy,Repeated thanks showing appreciation.
+h_068_0.wav,happy,такий гарний ротик.,happy,Compliment about someone's nice mouth.
+h_069_1.wav,happy,"Дівчата, а що це таке?",neutral,A simple question asking what something is.
+h_070_0.wav,happy,Є!,happy,Enthusiastic affirmation or agreement.
+h_071_1.wav,happy,"Клас, дякую тобі дуже, велике.",happy,Enthusiastic gratitude with multiple thanks.
+h_072_0.wav,happy,"О, ні, це не ред флег.",neutral,Simple denial statement without strong emotional content.
+h_073_1.wav,happy,"Ми не пили алкоголь, але я відчуваю себе такою знаєш.",neutral,Descriptive statement about feeling a certain way without clear emotional valence.
+h_074_1.wav,happy,Мабуть тому я досі не була ще на індивідуальному побаченні.,sad,Implies loneliness or disappointment about not having individual dates.
+h_075_1.wav,happy,Це було так по-домашньому затишно і правильно.,happy,Positive description using words like 'cozy' and 'right'.
+h_076_1.wav,happy,"Ну, побачимо, що з цього вийде, якщо чесно.",neutral,Matter-of-fact statement about waiting to see results.
+h_077_1.wav,happy,"Я не знаю, чи наступний жарт варто говорити.",neutral,Uncertain statement about whether to tell a joke.
+h_078_1.wav,happy,"Блін, я не знаю, чи наступний жарт варто говорити.",neutral,Similar uncertainty with mild intensifier but no clear emotion.
+h_079_0.wav,happy,"Ну, можна так швиденько так показать",neutral,Simple request or suggestion to show something quickly.
+h_080_1.wav,happy,Ну не хочеться втратити пасажира.,neutral,Practical concern about not losing a passenger.
+h_081_1.wav,happy,Це було просто.,neutral,Brief factual statement that something was simple.
+h_082_1.wav,happy,"Групові побачення, я шось більше не хочу",sad,Expresses reluctance and loss of interest in group dating.
+h_083_0.wav,happy,Ми сьогодні йдемо на майстер-клас по грі на барабанах.,happy,Excited announcement about attending a drum masterclass.
+h_084_1.wav,happy,"Розповім, як я в тюрмі сиділа",neutral,Matter-of-fact statement about telling a story.
+h_085_0.wav,happy,Пізніше.,neutral,Simple temporal reference without emotional content.
+h_086_0.wav,happy,яка розкриється пізніше.,neutral,Incomplete statement about something being revealed later.
+h_087_0.wav,happy,Ти не ображаєшся.,neutral,Direct question checking if someone is offended.
+h_088_0.wav,happy,Ми з тобою сьогодні провели дуже класно час.,happy,Positive reflection on spending great time together.
+h_089_0.wav,happy,Ти мене нічого не запитуєш,sad,Implies disappointment about lack of questions or interest.
+h_090_1.wav,happy,"Сьогодні нереальним був ти, Тарас.",happy,Complimentary statement expressing admiration for someone.
+h_091_1.wav,happy,"Мені здається, що сьогодні нереально був ти такий Тарас.",happy,Similar positive sentiment about how amazing the person was.
+h_092_0.wav,happy,Один бал.,neutral,Simple factual statement about a score or grade with no emotional content.
+h_093_0.wav,happy,"А ввечері ми, можливо, можливо, повечеряємо разом.",neutral,"Casual suggestion about dinner plans with uncertain tone, no strong emotion."
+h_094_0.wav,happy,"А, я думаю, варіант Б.",neutral,"Simple statement of preference for option B, matter-of-fact delivery."
+h_095_1.wav,happy,"Молодощо, бути прикольно, взагалі",happy,Enthusiastic expression about youth and something being cool or awesome.
+h_096_1.wav,happy,"Я хочу, щоб ми розпочали це робити разом.",happy,"Positive desire to start doing something together, showing enthusiasm and collaboration."
+h_097_0.wav,happy,"Ти змінила, насправді свій тон, це дуже приємно.",happy,"Compliment about tone change being pleasant, expressing appreciation and positivity."
+h_098_1.wav,happy,Карпати!,happy,"Exclamatory expression about the Carpathian mountains, showing excitement or enthusiasm."
+h_099_0.wav,happy,Що за челендж? Мені подобається.,happy,"Positive reaction to a challenge, expressing enjoyment and interest."
+h_100_0.wav,happy,Мені подобається!,happy,"Clear expression of liking something, positive emotional statement."
+h_101_1.wav,happy,Ти замовив всю мою корзину сольмар?,neutral,"Simple question about ordering items, no clear emotional valence."
+h_102_0.wav,happy,Зараз будемо робити сюрприз.,happy,"Anticipation of making a surprise, suggesting positive excitement."
+h_103_0.wav,happy,У мене для вас дещо є.,neutral,"Neutral statement about having something for someone, no emotional tone."
+h_104_1.wav,happy,А як це так вабще?,neutral,"Questioning how something works, curious but emotionally neutral tone."
+h_105_1.wav,happy,Спасіба! Я в шоці!,happy,"Expression of thanks and shock in positive context, showing excitement."
+h_106_0.wav,happy,Єс!,happy,Enthusiastic 'yes' expression showing agreement and positive energy.
+h_107_0.wav,happy,Тобі треба мене розважати я вважаю.,neutral,"Statement about needing entertainment, matter-of-fact without strong emotion."
+h_108_1.wav,happy,"Боже, він дуже мулий.",happy,"Positive comment about someone being cute or sweet, affectionate tone."
+h_109_1.wav,happy,"Хи-хи, дякую",happy,"Playful laugh followed by thanks, showing amusement and appreciation."
+h_110_0.wav,happy,Піцуньки,neutral,"Single word referring to small pizzas, no emotional context."
+h_111_0.wav,happy,"Дякую, дякую велике за піцуньки.",happy,"Grateful expression with emphasis, showing appreciation for the small pizzas."
+h_112_0.wav,happy,Дуже смачно. Дуже смачно.,happy,Repeated praise about taste expressing satisfaction and pleasure.
+h_113_0.wav,happy,"Це найкраще, що зі мною траплялося",happy,"Superlative expression indicating the best experience, showing joy."
+h_114_0.wav,happy,Харош,happy,Positive approval expression showing satisfaction.
+h_115_1.wav,happy,В нас був пікнік,neutral,Simple factual statement about having a picnic.
+h_116_1.wav,happy,"Боже, яка краса!",happy,Exclamation of admiration expressing joy and wonder.
+h_117_1.wav,happy,"Да, це кальє.",neutral,Simple factual statement confirming something.
+h_118_0.wav,happy,Кохаю вас.,happy,Direct expression of love showing positive emotion.
+h_119_1.wav,happy,І я вас кохаю,happy,Reciprocal expression of love showing affection.
+h_120_1.wav,happy,"Нє, я вас лав ю.",happy,Playful expression of love showing positive feelings.
+h_121_1.wav,happy,"Боже, яка краса! Дякую.",happy,Exclamation of beauty followed by gratitude expressing joy.
+h_122_1.wav,happy,Дякую.,neutral,Simple thank you without strong emotional context.
+h_123_1.wav,happy,Іду в дзеркало подивлюсь.,neutral,Factual statement about going to look in mirror.
+h_124_1.wav,happy,Це дуже красиво.,happy,Expression of appreciation for beauty showing positive emotion.
+h_125_1.wav,happy,"Що так ніжно, подивись.",happy,Gentle appreciation comment expressing positive sentiment.
+h_126_0.wav,happy,Дуже подобається.,happy,Direct statement of liking something showing satisfaction.
+h_127_1.wav,happy,Дякую,neutral,Simple thank you without emotional context.
+h_128_0.wav,happy,"Я розумів, що тоді треба триматися.",neutral,Reflective statement about understanding without clear emotion.
+h_129_0.wav,happy,Клас.,happy,Approval expression showing positive reaction.
+h_130_1.wav,happy,Відкривай коробку.,neutral,Simple instruction without emotional charge.
+h_131_1.wav,happy,Відкривай коробку!,happy,Excited instruction with exclamation mark showing enthusiasm.
+h_132_0.wav,happy,"О, в мене Наталі",neutral,"Simple statement about having someone named Natali, no emotional content."
+h_133_1.wav,happy,"Ну, такий, реально класний, реально красивий.",happy,Positive descriptors 'класний' and 'красивий' indicate admiration and positive feelings.
+h_134_1.wav,happy,"Люди, оце відправляють кучу всього.",neutral,"Factual observation about people sending lots of things, no emotional valence."
+h_135_0.wav,happy,"Нє, там нормально все.",neutral,"Casual response indicating everything is normal, neutral tone."
+h_136_1.wav,happy,"Да, я розкажу.",neutral,"Simple agreement to tell something, no emotional content."
+h_137_1.wav,happy,Це буде так об'ємніше,neutral,"Descriptive statement about something being more voluminous, factual tone."
+h_138_1.wav,happy,Приїхала з котами,neutral,"Matter-of-fact statement about arriving with cats, no emotional indicators."
+h_139_1.wav,happy,Що ти тут робиш?,neutral,"Direct question asking what someone is doing, neutral inquiry."
+h_140_1.wav,happy,А коли він побачив,neutral,"Incomplete sentence about someone seeing something, no emotional context."
+h_141_1.wav,happy,"пластилін прийняв форму крісла, та й взагалі",neutral,"Descriptive statement about plasticine taking chair form, factual observation."
+h_142_1.wav,happy,Матеріалу можна зліпити що завгодно.,neutral,"Factual statement about material possibilities, no emotional content."
+h_143_1.wav,happy,"А я не знала, що йому відповісти",sad,Expression of uncertainty and not knowing what to respond suggests confusion or distress.
+h_144_1.wav,happy,Гарний позивний,happy,Word 'гарний' (good/nice) indicates positive evaluation or approval.
+h_145_1.wav,happy,спеціально обучених людей для цього,neutral,"Factual reference to specially trained people, no emotional content."
+h_146_1.wav,happy,"По відчуттях, знаєш.",neutral,"Reference to feelings in casual conversational context, neutral tone."
+h_147_1.wav,happy,Потрібно дві долоньки,neutral,"Instructional statement about needing two palms, factual content."
+h_148_1.wav,happy,Який ужас.,angry,Strong negative exclamation 'ужас' (horror) indicates shock or outrage.
+h_149_1.wav,happy,"До речі, оо.",neutral,"Conversational filler 'до речі' (by the way), no emotional content."
+h_150_1.wav,happy,Ваауу!,happy,Extended exclamation 'Ваауу!' shows excitement and positive surprise.
+h_151_1.wav,happy,Цим володарем,neutral,"Reference to 'this ruler/owner', incomplete context but neutral tone."
+h_152_1.wav,happy,Дуже велика посилка,neutral,Simple factual statement about package size without emotional content.
+h_153_1.wav,happy,"прямо, а через кого",neutral,"Question about method or pathway, factual inquiry."
+h_154_1.wav,happy,Включити режим,neutral,"Command to activate mode, neutral instruction."
+h_155_1.wav,happy,Змії на яку напали,angry,Reference to snakes attacking suggests tension or aggression.
+h_156_1.wav,happy,І тобі треба,neutral,Simple statement of necessity without emotional tone.
+h_157_1.wav,happy,Просто показати,neutral,Basic instruction to demonstrate something.
+h_158_1.wav,happy,"Трошки залученості теж не помішає, ну.",neutral,"Mild suggestion about involvement, conversational tone."
+h_159_0.wav,happy,"вам можу сказати, що",neutral,"Beginning of formal statement, no emotional charge."
+h_160_1.wav,happy,Сама ніяк не дочекаюся.,happy,Expression of eager anticipation and excitement.
+h_161_1.wav,happy,"Привіт, Донечко!",happy,"Warm, affectionate greeting to daughter."
+h_162_1.wav,happy,"Привіт, мам. Як ви там?",neutral,Standard greeting and inquiry about wellbeing.
+h_163_1.wav,happy,У нас все добре,happy,Positive statement about everything being good.
+h_164_1.wav,happy,"Чекаємо, коли ви нарешті приїдете.",happy,Expression of anticipation for visit shows positive emotion.
+h_165_1.wav,happy,Клас.,happy,Exclamation of approval or enthusiasm.
+h_166_1.wav,happy,"Радий, аж пищіть.",happy,Expression of joy with squeaking from excitement.
+h_167_1.wav,happy,А хто це до нас прийшов?,happy,Welcoming question with positive anticipatory tone.
+h_168_1.wav,happy,Мій улюблений зятик.,happy,Affectionate reference to beloved son-in-law.
+h_169_0.wav,happy,Салют мама,happy,Cheerful greeting to mother.
+h_170_1.wav,happy,"Справи чудово, справи",happy,Enthusiastic statement about wonderful affairs.
+h_171_1.wav,happy,"А от мій зятик приїде, буде ще",happy,Positive anticipation about son-in-law's arrival.
+h_172_1.wav,happy,Який він у тебе розумничок.,happy,Affectionate praise calling someone clever/smart shows positive emotions.
+h_173_1.wav,happy,"Діти, я така за вас рада.",happy,Expressing joy and being glad for children shows clear happiness.
+h_174_1.wav,happy,"Щасливої дороги, дітки!",happy,"Wishing happy travels is a positive, caring farewell."
+h_175_0.wav,happy,"надресирували. Ай! Е, який розумник",angry,Sarcastic tone with 'Ай!' exclamation suggests frustration or annoyance.
+h_176_0.wav,happy,"А, який розумник нашу мову вивчив",angry,Sarcastic comment about learning language suggests mocking or irritated tone.
+h_177_0.wav,happy,свято на все життя і готуватись тиждень,neutral,Factual statement about celebration lasting lifetime and preparing for week.
+h_178_1.wav,happy,"Ну, слава Богу.",happy,Expression of relief and gratitude to God shows positive emotion.
+h_179_1.wav,happy,"Та я знала, що все добре закінчиться.",happy,Confidence that everything would end well expresses satisfaction and positivity.
+h_180_1.wav,happy,Тепер можемо спокійно лягати спати.,happy,Relief and peace about being able to sleep calmly.
+h_181_0.wav,happy,Точно! Я з ним вже домовився,happy,Confirmation and satisfaction about making an agreement shows positive outcome.
+h_182_1.wav,happy,"За твоє щастя, за сімейне благополуччя.",happy,Toast for happiness and family well-being expresses warm wishes.
+h_183_1.wav,happy,"Давай, давай, давай, іди!",neutral,Repeated encouragement to go is more directive than emotional.
+h_184_1.wav,happy,Привіт.,neutral,Simple greeting without additional emotional context.
+h_185_1.wav,happy,Нові столики нарешті,happy,Relief and satisfaction about finally getting new tables.
+h_186_1.wav,happy,"Ти, дякую я сама.",neutral,Polite declining of help is factual response.
+h_187_1.wav,happy,Я вас обожнюю,happy,Strong expression of adoration shows intense positive emotion.
+h_188_1.wav,happy,Дівчата,neutral,Simple address to girls without emotional context.
+h_189_1.wav,happy,Привіт!,happy,Enthusiastic greeting with exclamation shows positive energy.
+h_190_1.wav,happy,Я виходжу заміж.,happy,Announcement of getting married typically expresses joy and excitement.
+h_191_1.wav,happy,"Ну що, вип'ємо кави",neutral,Casual invitation for coffee is friendly but emotionally neutral.
+h_192_1.wav,happy,"І ваш чоловік, він був готовий вже підписати угоду.",neutral,Factual statement about husband being ready to sign an agreement.
+h_193_1.wav,happy,"Мама, ну ти сама казала, що я для тебе буду завжди маленькою.",sad,Nostalgic plea to mother expressing vulnerability and desire to remain small.
+h_194_1.wav,happy,Що так помітно?,neutral,Simple question asking what is noticeable.
+h_195_1.wav,happy,Ну ти аж світишся,happy,Positive observation that someone is glowing or radiant.
+h_196_1.wav,happy,Прийшло запрошення з Канади.,neutral,Factual announcement about receiving an invitation from Canada.
+h_197_1.wav,happy,"Вони, вони офігіли.",angry,Strong negative reaction expressing that they went crazy or lost it.
+h_198_1.wav,happy,"Ви мені вранці так допомогли, а потім так швидко пішли.",sad,Expressing disappointment about someone helping then leaving quickly.
+h_199_1.wav,happy,До завтра.,neutral,Simple farewell phrase until tomorrow.
+h_200_1.wav,happy,Сама підбирала.,neutral,Brief factual statement about selecting something herself.
+h_201_0.wav,happy,Навіть не думай про це.,angry,Firm command telling someone not to think about something.
+h_202_1.wav,happy,"Інка, невже це ти?",happy,Surprised and pleased recognition of someone named Inka.
+h_203_1.wav,happy,"Слухайте, ви так личить.",happy,Compliment saying something looks good on the person.
+h_204_1.wav,happy,Ти наче помолодшила. Ну?,happy,Positive comment about someone looking younger.
+h_205_1.wav,happy,Я вперше в житті каталась на байку. Дуже боялась.,neutral,Factual recounting of first motorcycle ride experience and being scared.
+h_206_1.wav,happy,"Ого, реально як у дитинстві.",happy,Positive nostalgic exclamation about childhood memories.
+h_207_1.wav,happy,Життя таке прекрасне.,happy,Direct expression of joy about life being beautiful.
+h_208_1.wav,happy,Я така щаслива.,happy,Clear statement of happiness and contentment.
+h_209_1.wav,happy,Мені сьогодні перший раз в житті аванс дали.,happy,Excited about receiving first advance payment in life.
+h_210_1.wav,happy,"Ну, як після цього це не вірити? Анжелка!",happy,Enthusiastic rhetorical question expressing belief and calling Angelka.
+h_211_1.wav,happy,Я досі отямитись не можу.,happy,Still unable to recover from positive overwhelming experience.
+h_212_1.wav,happy,Він гарний,happy,Positive assessment 'He is good/handsome' suggests pleasant feelings.
+h_213_1.wav,happy,Він гарний.,happy,"Same positive statement as previous, expressing favorable opinion."
+h_214_1.wav,happy,"Хочеться увесь день стрибати, святкувати.",happy,Explicit desire to jump and celebrate indicates joy and excitement.
+h_215_1.wav,happy,Я знайшов.,neutral,Simple factual statement 'I found' without emotional context.
+h_216_1.wav,happy,Ти йому подобаєшся,happy,Telling someone they are liked conveys positive romantic sentiment.
+h_217_1.wav,happy,"Ну, знаєте, я вже бачу, як якась халепа, і він завжди поряд.",happy,"Describes someone always being nearby during troubles, suggesting comfort and appreciation."
+h_218_1.wav,happy,"Ти сяєш, коли про нього говориш.",happy,Observation that someone glows when talking about a person indicates joy.
+h_219_1.wav,happy,"Ти б зараз бачила, як ти либишся, Вікусь.",happy,Pointing out someone's smile suggests positive emotions being observed.
+h_220_1.wav,happy,"Знала, він реально нормальний мужик.",happy,Expressing that someone is 'really a normal guy' shows approval.
+h_221_1.wav,happy,І вам гарного дня.,happy,"Wishing someone a good day is a positive, pleasant gesture."
+h_222_1.wav,happy,Добре,neutral,Single word 'Good/Okay' without clear emotional context.
+h_223_1.wav,happy,"Мені здається, що я вперше в житті порушила правила.",neutral,Factual observation about breaking rules for the first time.
+h_224_1.wav,happy,Прекрасна новина.,happy,Calling something 'wonderful news' clearly expresses positive emotions.
+h_225_1.wav,happy,"Такий просто капздєц-холодєц, що.",angry,Using strong negative slang expression suggests frustration or anger.
+h_226_1.wav,happy,А ти що?,neutral,Simple question 'And what about you?' is emotionally neutral.
+h_227_1.wav,happy,Яку дурню?,angry,Asking 'What foolishness?' suggests irritation or disapproval.
+h_228_1.wav,happy,А Мішка не знає поки що.,neutral,Factual statement that Mishka doesn't know yet.
+h_229_1.wav,happy,Іннуська.,neutral,Simple name or address without emotional context.
+h_230_1.wav,happy,"Маман, дозвольте налити.",neutral,"Polite request to pour something, neutral in tone."
+n_001_0.wav,neutral,із десяти останніх років,neutral,Incomplete phrase about 'from the last ten years' lacks emotional context.
+n_002_0.wav,neutral,Я оператор БПЛА.,neutral,Simple factual statement about profession as drone operator.
+n_003_0.wav,neutral,"Я завжди переживаю, коли ви трошки п'яні.",sad,Expresses worry and concern about someone being drunk.
+n_004_0.wav,neutral,На тебе хтось сів,neutral,Matter-of-fact observation about someone sitting on someone.
+n_005_1.wav,neutral,Ти займаєшся улюбленою справою,happy,Positive statement about engaging in favorite activity.
+n_006_1.wav,neutral,Мене звати Вікторія.,neutral,Simple self-introduction stating name.
+n_007_1.wav,neutral,Зараз чотири.,neutral,Factual statement about time being four o'clock.
+n_008_1.wav,neutral,Каті 23 роки.,neutral,Factual statement about Katya's age.
+n_009_1.wav,neutral,Я навчаюсь в нашому національному.,neutral,Neutral statement about studying at national university.
+n_010_1.wav,neutral,Місяць приблизно 5 тисяч.,neutral,Factual statement about monthly amount of 5 thousand.
+n_011_0.wav,neutral,групи раннього розвитку.,neutral,Factual reference to early development groups.
+n_012_1.wav,neutral,У вас дуже багато книжок.,neutral,Neutral observation about having many books.
+n_013_0.wav,neutral,Яка ситуація навколо,neutral,Question about surrounding situation without emotional charge.
+n_014_0.wav,neutral,піти лише на користь батькам.,neutral,Factual statement about benefiting parents.
+n_015_0.wav,neutral,"у різні теми виховання дитини, може",neutral,Neutral fragment about child-rearing topics.
+n_016_0.wav,neutral,Це може ускладнювати комунікацію з іншими.,sad,Describes communication difficulties as problematic situation.
+n_017_0.wav,neutral,та заважає будувати нові стосунки.,sad,Mentions interference with building new relationships negatively.
+n_018_0.wav,neutral,Вона матиме проблеми.,sad,Predicts problems for someone in future.
+n_019_0.wav,neutral,Жінка має через власні травми та життєві невдачі.,sad,References trauma and life failures affecting woman.
+n_020_0.wav,neutral,залишити дітей у безпечнішому місці.,neutral,Factual statement about leaving children in safer place.
+n_021_0.wav,neutral,зрозумілий материнський крок.,neutral,Describes maternal decision as understandable and logical.
+n_022_0.wav,neutral,Задовільнити бажання.,neutral,Simple infinitive phrase about satisfying desires with no emotional tone.
+n_023_0.wav,neutral,треба задовільнити бажання дитини.,neutral,Factual statement about needing to satisfy a child's desires.
+n_024_0.wav,neutral,Їй не вистачає вашої уваги.,sad,"Expresses lack or deficiency in attention, suggesting emotional need."
+n_025_1.wav,neutral,"В мене доньки 17,5 років.",neutral,Simple factual statement about daughter's age.
+n_026_0.wav,neutral,керуватися інтересам дитини.,neutral,Instructional phrase about being guided by child's interests.
+n_027_0.wav,neutral,Дитина має зупиняти.,neutral,"Fragment about child having to stop something, lacks clear emotion."
+n_028_0.wav,neutral,Ви не повинні засуджувати.,neutral,"Directive statement about not judging, presented matter-of-factly."
+n_029_0.wav,neutral,І Саша 37.,neutral,Simple statement about Sasha's age.
+n_030_0.wav,neutral,Це ніколи не відмовляло.,neutral,Factual observation about something never refusing.
+n_031_1.wav,neutral,Ти можеш побудувати життя?,neutral,Direct question about building life without clear emotional valence.
+n_032_0.wav,neutral,Переходимо до другої частини.,neutral,Procedural statement about moving to next section.
+n_033_0.wav,neutral,Це частина розвідки.,neutral,Factual statement identifying something as part of reconnaissance.
+n_034_1.wav,neutral,Я і моїх троє сестер.,neutral,Fragment mentioning self and three sisters without emotion.
+n_035_1.wav,neutral,Питання стосовно навчання.,neutral,Simple reference to questions about education.
+n_036_0.wav,neutral,На основі ваших заяв.,neutral,Formal phrase about basing something on statements.
+n_037_0.wav,neutral,чимало заборонених для них речей.,neutral,Factual reference to many forbidden things for them.
+n_038_0.wav,neutral,"Тож, в такі моменти не варто здіймати гвалт.",neutral,"Advice about not making noise in certain moments, presented calmly."
+n_039_0.wav,neutral,Покарання в четвертому раунді.,angry,"Word 'punishment' carries negative, punitive connotation suggesting anger or severity."
+n_040_1.wav,neutral,Буквально на другому місяці участі в проекті.,neutral,Factual temporal reference to second month of project participation.
+n_041_0.wav,neutral,"На жаль, коли батьки хочуть,",sad,Begins with 'unfortunately' indicating disappointment or regret about parental desires.
+n_042_0.wav,neutral,Це проблеми з узагальненням.,neutral,A factual statement about generalization problems with no emotional content.
+n_043_1.wav,neutral,Він цим гордиться.,happy,Expressing pride indicates positive emotion and satisfaction.
+n_044_0.wav,neutral,Садочок не є обов'язковим.,neutral,Factual statement about kindergarten not being mandatory.
+n_045_0.wav,neutral,"Два зубчики часнику, ви бачите.",neutral,Instructional statement about garlic cloves with no emotional tone.
+n_046_1.wav,neutral,В мене є до вас запитання.,neutral,"Polite, formal inquiry without emotional content."
+n_047_1.wav,neutral,Люби маму.,happy,Expression of love conveys positive emotion and affection.
+n_048_1.wav,neutral,Мені було 27 років,neutral,Simple statement of age without emotional context.
+n_049_0.wav,neutral,Права рука синє.,neutral,Descriptive statement about color with no emotional content.
+n_050_0.wav,neutral,10 у Даші,neutral,Brief numerical reference without emotional context.
+n_051_0.wav,neutral,"на вулиці, там, коли є друзі",happy,Mention of friends in context suggests positive social experience.
+n_052_0.wav,neutral,10 балів вам,happy,Giving perfect score indicates positive evaluation and satisfaction.
+n_053_0.wav,neutral,настрій був веселим та невимушеним.,happy,Explicitly describes cheerful and relaxed mood indicating happiness.
+n_054_0.wav,neutral,"А ви з сестрою живете теж, ну, разм?",neutral,Casual question about living arrangements without emotional tone.
+n_055_0.wav,neutral,А ти плануєш далі ще працювати в цій сфері?,neutral,Professional inquiry about future work plans.
+n_056_0.wav,neutral,Для тебе ще я підготував невеличкий подарунок.,happy,Offering a gift indicates kindness and positive intention.
+n_057_0.wav,neutral,Ти була тією з ким я найбільше зблизився,happy,Expressing closeness and connection indicates positive emotional bond.
+n_058_1.wav,neutral,Розмова пішла якось в дуже таку цікаву струю.,happy,Describing conversation as interesting suggests positive engagement and enjoyment.
+n_059_1.wav,neutral,"Можливо, вона так, е-е, фліртує.",neutral,Observational comment about possible flirting without clear emotion.
+n_060_1.wav,neutral,"Вона більш досвідчена. Вона,",neutral,Incomplete statement about experience level without emotional content.
+n_061_1.wav,neutral,ти постійно в різних якихось таких прикольних шкарпетках кольорових.,happy,Complimenting colorful socks suggests positive observation and appreciation.
+n_062_1.wav,neutral,Два дня була вже в лікарні.,neutral,Factual statement about being in hospital for two days.
+n_063_1.wav,neutral,Так. Два дня була вже в лікарні.,neutral,Confirmation and repetition of factual hospital stay information.
+n_064_1.wav,neutral,"Може поговоримо про побачення, про вчорашнє?",neutral,Simple suggestion to talk about a date from yesterday.
+n_065_1.wav,neutral,"Ну, бо ти мені подобаєшся.",happy,Expression of romantic interest and positive feelings toward someone.
+n_066_0.wav,neutral,"І сподіваюсь, що ми цей тиждень проведемо разом дуже гарно.",happy,Hopeful and positive expectation about spending time together nicely.
+n_067_0.wav,neutral,Бачу радість на її обличчі.,happy,Observation of joy and happiness on someone's face.
+n_068_0.wav,neutral,"Здається, перейшли на якусь іншу тему навіть.",neutral,Neutral observation about changing conversation topics.
+n_069_0.wav,neutral,"Я відповів на запитання і ми, здається, перейшли на якусь іншу тему, навіть",neutral,Factual description of answering questions and topic changes.
+n_070_1.wav,neutral,Мені хотілося бути максимально щирою.,neutral,"Statement about wanting to be sincere, neutral intention."
+n_071_1.wav,neutral,"Я тоді дуже багато працювала, не знала просто, що я вагітна.",sad,Describes difficult period of working hard while unknowingly pregnant.
+n_072_1.wav,neutral,"Не знала просто, я вагітна.",sad,"Repetition emphasizing not knowing about pregnancy, suggesting distress."
+n_073_1.wav,neutral,Але цікаво взагалі послухати його про цю тему.,neutral,Neutral curiosity about hearing someone's perspective on topic.
+n_074_1.wav,neutral,Тоді я на багато речей можу закрити очі.,neutral,"Conditional statement about overlooking things, matter-of-fact tone."
+n_075_1.wav,neutral,Я трошки переживала.,sad,Direct admission of feeling worried or anxious about something.
+n_076_1.wav,neutral,"О, мені бо років 14-13.",neutral,Simple factual statement about being 13-14 years old.
+n_077_1.wav,neutral,Я останні роки не святкую свій день народження.,sad,Statement about not celebrating birthdays suggests melancholy or withdrawal.
+n_078_0.wav,neutral,Мені сподобалась твоя пропозиція на відеозверненні.,happy,Positive response expressing liking someone's video proposal.
+n_079_0.wav,neutral,Я пропоную тобі лишитись ще завтра в Львові.,happy,Enthusiastic invitation suggesting positive desire for continued company.
+n_080_0.wav,neutral,"Зрозуміло, що була проблема, яку потрібно вирішити.",neutral,Factual acknowledgment that there was a problem needing solution.
+n_081_0.wav,neutral,"В тебе є якісь, е-е, такі зменшувально-пестливі слова, які тобі подобаються?",neutral,"Curious question about preferences for diminutive words, neutral inquiry."
+n_082_0.wav,neutral,Ми зобов'язані робити ці зміни.,neutral,States an obligation in a matter-of-fact way without emotional emphasis.
+n_083_1.wav,neutral,В мене було дуже багато проблем.,sad,"Expresses having many problems, indicating distress or difficulty."
+n_084_1.wav,neutral,Вітаю вас в Івано-Франківську.,happy,"A welcoming greeting shows positive, friendly sentiment."
+n_085_1.wav,neutral,"Походу Давид там буде лежати, а не я",neutral,Casual observation about someone's location without emotional weight.
+n_086_1.wav,neutral,Там вже кілограм 12 було,neutral,Simple factual statement about weight or quantity.
+n_087_0.wav,neutral,Мені вже стало жарко.,neutral,Basic description of physical sensation without emotional context.
+n_088_0.wav,neutral,зробити все дійсно прикольно і класно.,happy,Uses positive words like 'cool' and 'great' showing enthusiasm.
+n_089_0.wav,neutral,Теж хотів спробувати відкрити хоч раз хоч одну скриньку.,neutral,Expresses mild desire to try something without strong emotion.
+n_090_0.wav,neutral,Заробляємо обоє.,neutral,Simple factual statement about both people working.
+n_091_0.wav,neutral,"Вона просто більше заробляє, я менше.",neutral,Matter-of-fact comparison of earnings without emotional judgment.
+n_092_0.wav,neutral,"Я часто їжджу блаблакаром, тоже своєю машиною.",neutral,Casual description of travel habits without emotional content.
+n_093_0.wav,neutral,Стояв хлопчина вже постарше.,neutral,Objective description of someone's appearance and age.
+n_094_0.wav,neutral,"Бачу, хлопчина молодий, з телефоном стоїть.",neutral,Simple observational statement about a young person with phone.
+n_095_0.wav,neutral,"На відпочинок, де ми тільки удвох, без зв'язку.",happy,"Describes romantic getaway for two, suggesting positive anticipation."
+n_096_0.wav,neutral,"Ти дуже гарна, мила.",happy,Direct compliment using positive adjectives shows affection and warmth.
+n_097_0.wav,neutral,"абсолютно всі деталі запам'ятав, того, що для мене це реально була подія.",happy,Emphasizes remembering details of a significant positive event.
+n_098_0.wav,neutral,"І я просто не не розумів, що мені сказати, того що цих причин було дофіга.",sad,Expresses confusion and being overwhelmed by too many reasons.
+n_099_0.wav,neutral,Вона боїться закритого простору,sad,"Describes someone's fear of enclosed spaces, indicating anxiety."
+n_100_0.wav,neutral,Вона мені це постійно говорила.,neutral,States frequency of communication without emotional context.
+n_101_0.wav,neutral,"Я був певний, що вона дасть відповідь.",neutral,Expresses certainty about expected response in factual manner.
+n_102_0.wav,neutral,ми з нею про це спілкувалися,neutral,Simple factual statement about a conversation with no emotional indicators.
+n_103_1.wav,neutral,Все ж таки треба йти до кінця.,neutral,"Direct statement about necessity to continue, no clear emotional valence."
+n_104_1.wav,neutral,Все ж таки треба йти до кінця і хоча би спробувати з ним порозумітися.,neutral,"Pragmatic statement about trying to reach understanding, factual tone."
+n_105_1.wav,neutral,Але був дуже крутий зоровий контакт.,happy,Positive description using 'крутий' indicates satisfaction or pleasure.
+n_106_1.wav,neutral,Я була в ходила в цих пластмасових корсетах.,neutral,"Simple past tense statement about wearing something, no emotional content."
+n_107_0.wav,neutral,"Вибач, мені не тяжко вже казати.",sad,Apology combined with difficulty speaking suggests emotional burden or distress.
+n_108_0.wav,neutral,"Ти дійсно прекрасна і чудова дівчина, неймовірно красива, неймовірно розумна.",happy,Multiple positive adjectives expressing admiration and compliments indicate joy.
+n_109_0.wav,neutral,Я тобі теж бажаю знайти дійсно своє кохання.,happy,Expressing good wishes for finding love shows positive sentiment.
+n_110_0.wav,neutral,"Я взяв з собою натальну карту, яку ти мені подарувала.",neutral,Factual statement about taking something that was given as gift.
+n_111_0.wav,neutral,А яка завтра в тебе мета?,neutral,"Simple question about tomorrow's goal, no emotional markers."
+n_112_0.wav,neutral,Я вже готовий розпочати церемонію троянд.,neutral,"Statement of readiness to begin ceremony, formal and factual."
+n_113_0.wav,neutral,Мені подобаються твої прагнення до змін.,happy,Expressing liking for someone's aspirations shows positive approval.
+n_114_0.wav,neutral,"Сьогодні зустрічаю одну з дівчат, яка на жаль не доїхала на першу вечірку.",sad,Mention of someone unfortunately not arriving suggests disappointment.
+n_115_0.wav,neutral,"Тому, якщо ти не проти, я пропоную тобі трішечки відпочити перед цим.",neutral,"Polite suggestion to rest, courteous but emotionally neutral."
+n_116_0.wav,neutral,"Так, тут обережно",neutral,"Simple warning to be careful, practical instruction without emotion."
+n_117_0.wav,neutral,Трішки слизько після дощу,neutral,Factual observation about slippery conditions after rain.
+n_118_0.wav,neutral,"коли не було за що схопитись, в принципі.",neutral,Descriptive statement about having nothing to hold onto.
+n_119_0.wav,neutral,"Ну, ти, молодець, здивувала мене реально сьогодні.",happy,Calling someone 'молодець' and expressing real surprise shows positive admiration.
+n_120_0.wav,neutral,"Мені сподобалася Інна. Я почував себе затишно, приємно.",happy,Expressing liking and comfortable feelings indicates positive emotions.
+n_121_0.wav,neutral,Вона підняла досить таки серйозні теми своїх травм.,sad,"Reference to serious trauma topics suggests heavy, somber emotional content."
+n_122_0.wav,neutral,"Для неї це болюча тема, і точно.",sad,"References a painful topic, indicating emotional distress or sadness."
+n_123_0.wav,neutral,"А, я думаю, варіант Б, ти поїхав в іншу країну.",neutral,Matter-of-fact statement about travel options without emotional content.
+n_124_0.wav,neutral,"Як там кажуть, найтяжче казати слово ""Вибач"" і ""Кохаю"", напевно.",neutral,"Reflective observation about difficulty of certain words, stated factually."
+n_125_1.wav,neutral,Вона протікає в нас по спині.,neutral,"Descriptive statement about something flowing along the spine, purely informational."
+n_126_1.wav,neutral,"Я побачила легеньке здивування спочатку, типу на його обличчі.",neutral,Observational description of someone's facial expression without emotional valence.
+n_127_0.wav,neutral,Я вирішив також залучити дівчат до цього збору.,neutral,Factual statement about a decision to involve girls in collection.
+n_128_0.wav,neutral,"Анастасія, представ, будь ласка, свій лот",neutral,"Polite request for presentation, formal and emotionally neutral."
+n_129_0.wav,neutral,"Радий, що наше побачення було найкращим для тебе.",happy,Expresses gladness about a positive meeting experience.
+n_130_1.wav,neutral,"Давайте, будемо чекати дівчат.",neutral,"Simple suggestion to wait, without emotional content."
+n_131_1.wav,neutral,якраз там 10 десь років до 16-17.,neutral,"Factual statement about age range, purely informational."
+n_132_0.wav,neutral,Для зведення до квадратного рівняння за дужки.,neutral,"Mathematical instruction about reducing to quadratic equation, technical content."
+n_133_0.wav,neutral,"Потрібно винести, множник",neutral,"Technical instruction about factoring out a multiplier, academic content."
+n_134_0.wav,neutral,почали обробку спусків,neutral,"Factual statement about beginning processing of descents, informational."
+n_135_1.wav,neutral,Ця програма відкриє нові можливості.,happy,Positive statement about new opportunities being opened by a program.
+n_136_1.wav,neutral,нові можливості для людей.,happy,Continuation of positive sentiment about new opportunities for people.
+n_137_1.wav,neutral,і за її допомогою більше громадян.,neutral,"Technical statement about program helping more citizens, factual tone."
+n_138_0.wav,neutral,має дорівнювати 70.,neutral,"Mathematical statement about a value equaling 70, purely technical."
+n_139_1.wav,neutral,"ми якраз і розуміємо, чому Радянський Союз",neutral,"Beginning of explanation about understanding Soviet Union, factual approach."
+n_140_1.wav,neutral,Чому так зростають військові витрати?,neutral,"Question about military spending growth, inquiring but not emotional."
+n_141_1.wav,neutral,Ми пам'ятаємо з вами.,neutral,"Simple statement about remembering together, factual without clear emotion."
+n_142_0.wav,neutral,по мірі прогрівання стінок цієї колби.,neutral,Technical description of heating process in a flask.
+n_143_0.wav,neutral,прогрівається і газ.,neutral,Factual statement about gas heating up.
+n_144_1.wav,neutral,Роки письменниця провела,neutral,Incomplete factual statement about years a writer spent.
+n_145_1.wav,neutral,"І ось та природа, які, яка є.",neutral,"Fragmentary statement about nature, unclear but not emotional."
+n_146_1.wav,neutral,"А ми обговоримо той документ, який був переданий.",neutral,Matter-of-fact statement about discussing a document.
+n_147_1.wav,neutral,і творив про саме життя.,neutral,Descriptive statement about creating work about life.
+n_148_1.wav,neutral,"Норм, вже завтра відновити роботу.",neutral,Brief acknowledgment about resuming work tomorrow.
+n_149_1.wav,neutral,зможуть 872 продовольчі ринки.,neutral,Factual statement about number of food markets.
+n_150_1.wav,neutral,"чотири, розчин блакитний.",neutral,Technical description of blue solution.
+n_151_1.wav,neutral,і додаємо луг натріо.,neutral,Instruction about adding sodium hydroxide.
+n_152_1.wav,neutral,Артем Чех пішов на фронт.,sad,Statement about someone going to war front suggests tragedy.
+n_153_1.wav,neutral,Він написав збірку есеїв. Точка.,neutral,Factual statement about writing a collection of essays.
+n_154_1.wav,neutral,Ви можете утворити форму пані-вівчар,neutral,Grammar instruction about forming a word.
+n_155_1.wav,neutral,Іменника чоловічого роду вівчар.,neutral,Technical linguistic description of masculine noun.
+n_156_1.wav,neutral,Отримаємо 13.,neutral,Mathematical result statement.
+n_157_0.wav,neutral,"Мене просять нагадати, чому.",neutral,Request for reminder about something.
+n_158_0.wav,neutral,"Друзі, а в мене, по-перше,",neutral,Incomplete conversational opening to friends.
+n_159_1.wav,neutral,Береза плаче тихими слізьми.,sad,Poetic imagery of birch crying suggests melancholy.
+n_160_1.wav,neutral,"А ми, ті сльози,",sad,Continuation of tear imagery maintains sad tone.
+n_161_1.wav,neutral,"Юрій Гарасько, каже.",neutral,Simple attribution statement naming someone speaking.
+n_162_0.wav,neutral,трикутник має площу 1/2 *,neutral,Mathematical formula statement with no emotional content.
+n_163_0.wav,neutral,на сторону два,neutral,Fragment about direction/side with neutral tone.
+n_164_1.wav,neutral,панувала у середньовіччі. Навіть,neutral,"Historical statement about medieval period, factual tone."
+n_165_1.wav,neutral,Теорія самозародження панувала у,neutral,Academic reference to theory of spontaneous generation.
+n_166_0.wav,neutral,Є книга Светланы Алексиевич про Чорнобиль.,neutral,Factual mention of a book about Chernobyl.
+n_167_1.wav,neutral,Вихідні встановив такі курси валют.,neutral,Official statement about currency exchange rates.
+n_168_1.wav,neutral,Долар коштує 26 грн 19 копійок.,neutral,Factual information about dollar exchange rate.
+n_169_1.wav,neutral,Офіційний курс євро на сьогодні 31 грн.,neutral,Official euro exchange rate announcement.
+n_170_1.wav,neutral,"А, у справі про узурпацію влади.",neutral,Legal reference to power usurpation case.
+n_171_1.wav,neutral,ми хочемо сказати.,neutral,Simple statement of intention to speak.
+n_172_0.wav,neutral,вивчали види підрядних частин.,neutral,Academic reference to studying subordinate clause types.
+n_173_0.wav,neutral,Три основні види підрядних частин.,neutral,Educational statement about three main types.
+n_174_0.wav,neutral,Це перша професійна освіта.,neutral,Factual statement about professional education.
+n_175_0.wav,neutral,"зрозуміти, що слухають навколо можна.",neutral,Incomplete observation about understanding surroundings.
+n_176_0.wav,neutral,Кольором навушників. Він змінюється залежно від,neutral,Technical description of headphone color changes.
+n_177_1.wav,neutral,що не менш важливо зменшити суму,neutral,Statement about reducing monetary bail importance.
+n_178_1.wav,neutral,грошової застави для кандидатів.,neutral,Reference to monetary bail for candidates.
+n_179_0.wav,neutral,"Справа в тому, що зараз в",neutral,Beginning of explanation about current situation.
+n_180_0.wav,neutral,новим виборчим кодексом.,neutral,Reference to new electoral code.
+n_181_0.wav,neutral,Президент Віктор Янукович втік з країни.,neutral,Factual statement about president fleeing the country.
+n_182_0.wav,neutral,відбулася зміна влади.,neutral,Factual statement about a change of power with no emotional coloring.
+n_183_0.wav,neutral,"значний успіх, тому що",happy,"References significant success, indicating positive achievement or accomplishment."
+n_184_0.wav,neutral,За два роки планомірних наукових досліджень.,neutral,Descriptive phrase about research timeframe with no emotional content.
+n_185_0.wav,neutral,"Княжої гори, біля міста.",neutral,Geographic location reference with no emotional valence.
+n_186_1.wav,neutral,Словосполучення сірий птах.,neutral,Simple noun phrase describing a gray bird with no emotion.
+n_187_0.wav,neutral,Пішоходів повинні багато годин чекати на блокпосту.,angry,Expresses frustration about pedestrians having to wait long hours at checkpoints.
+n_188_0.wav,neutral,Час від часу трапляються навіть смертельні випадки.,sad,"Mentions fatal cases occurring, indicating tragic or sorrowful events."
+n_189_1.wav,neutral,"Давайте подивимося, скільки часу пройшло.",neutral,Matter-of-fact suggestion to check how much time has passed.
+n_190_1.wav,neutral,"грами, або 396.",neutral,Numerical measurement data with no emotional content.
+n_191_1.wav,neutral,"міліграмів. Давайте подивимося, скільки часу.",neutral,Technical measurement followed by neutral time-checking statement.
+n_192_1.wav,neutral,"вуличних заворушень, тут загинуло 48 людей.",sad,"Reports deaths during street unrest, conveying tragic loss of life."
+n_193_1.wav,neutral,Більшість у пожежі в будинку профспілок.,sad,"Describes majority dying in a trade union building fire, indicating tragedy."
+n_194_0.wav,neutral,"Ми, безумовно, будемо",neutral,Incomplete assertive statement with no clear emotional direction.
+n_195_0.wav,neutral,Що вона ні в чому не винна,neutral,Statement about innocence without clear emotional context or intensity.
+n_196_0.wav,neutral,дуже довго того чекаємо.,angry,Expresses impatience or frustration about waiting too long for something.
+n_197_0.wav,neutral,"Наталі поділилася, що вона вагітна.",happy,"Shares news about pregnancy, typically associated with joy and celebration."
+n_198_0.wav,neutral,зняла це все на відео,neutral,Simple factual statement about recording something on video.
+n_199_1.wav,neutral,Реакції тіла збігаються.,neutral,Objective observation about bodily reactions matching or coinciding.
+n_200_1.wav,neutral,"і з тим, чого насправді хоче людина.",neutral,Analytical statement about human desires without emotional coloring.
+n_201_1.wav,neutral,"або із тим, чого би вона хотіла.",neutral,Continuation of analytical thought about wishes with no emotion.
+n_202_1.wav,neutral,"Е, я пам'ятаю 50 відтінків сірого.",neutral,Simple factual statement about remembering a movie title.
+n_203_1.wav,neutral,"Біль - це завжди дзвіночок про те, що щось іде не так.",neutral,Matter-of-fact observation about pain being a warning signal.
+n_204_1.wav,neutral,зупинитися. Варто почекати.,neutral,Brief directive statements without emotional content.
+n_205_1.wav,neutral,"Можливо, перенести. Можливо, спробувати по-іншому.",neutral,"Suggesting alternatives in a calm, practical manner."
+n_206_1.wav,neutral,в тебе змінюється робота там сильних залуз.,neutral,Technical or descriptive statement about work changes.
+n_207_1.wav,neutral,"саме в цей період, ну, підходять.",neutral,Incomplete statement about timing without clear emotion.
+n_208_1.wav,neutral,"Будете навчатись в університеті, у вас пройдуть прищі",happy,Positive prediction about university and acne improvement.
+n_209_1.wav,neutral,хлопчиків також вакцинують.,neutral,Factual statement about boys being vaccinated.
+n_210_1.wav,neutral,"І для захисту себе, тому що все ж таки там",neutral,Incomplete statement about self-protection without clear emotion.
+n_211_1.wav,neutral,"в подальшому там через 10 років може заверти, ну завершитись.",neutral,Technical description about something ending in 10 years.
+n_212_0.wav,neutral,просто несамовито займаються коханням в потоці.,happy,Enthusiastic description of passionate lovemaking.
+n_213_0.wav,neutral,"формується, вот сучасна.",neutral,Incomplete statement about something modern being formed.
+n_214_0.wav,neutral,Від попередніх поколінь.,neutral,Simple reference to previous generations.
+n_215_0.wav,neutral,Я переймаю від різних.,neutral,Matter-of-fact statement about taking from different sources.
+n_216_0.wav,neutral,да я CEO,happy,Confident declaration of CEO status suggests pride.
+n_217_0.wav,neutral,буквально на цьому тижні.,neutral,Simple time reference without emotional content.
+n_218_0.wav,neutral,запустилась нова компанія.,happy,Announcement of new company launch sounds positive.
+n_219_0.wav,neutral,"займався запускам, і буду продовжувати.",happy,Confident statement about continuing launch activities.
+n_220_0.wav,neutral,стильний і якісний мерч з креативним підходом,happy,"Positive description of stylish, quality merchandise."
+n_221_0.wav,neutral,"можливо, можливо.",neutral,Repetitive uncertain response without clear emotion.
+a_225_0.wav,angry,Замовч я тобі кажу. Всьо.,angry,Commanding someone to shut up with emphasis shows clear anger and irritation.
+a_226_0.wav,angry,"Мовчи, вкладай малу спати.",neutral,Direct instruction about putting a child to sleep without emotional charge.
+a_227_0.wav,angry,"Ну то що? Говори, я до всього готовий.",neutral,"Matter-of-fact statement showing readiness to hear something, no clear emotion."
+a_228_1.wav,angry,Бий! Хоч вбий!,angry,"Aggressive command to hit, expressing rage and desperation."
+a_229_0.wav,angry,Замовч.,angry,Sharp command to be quiet shows irritation and authority.
+a_230_0.wav,angry,"Побійтеся Бога, як вам не соромно.",angry,Religious reproach expressing moral indignation and shame toward others.
+s_206_0.wav,sad,"Нічого, розберемося",neutral,Calm statement about handling a situation without emotional intensity.
+a_231_0.wav,angry,"Розумієш, повинен. Інакше хто я такий буду?",neutral,Logical explanation about duty and identity without strong emotional valence.
+a_232_0.wav,angry,Повинен помститися цим гадам.,angry,Statement about revenge against enemies shows clear anger and hatred.
+a_233_0.wav,angry,Працював тяжко. Нікого не чіпав.,sad,Describes hard work and peaceful behavior with undertone of victimization.
+a_234_0.wav,angry,А от вони прийшли до мене і скривдили. За що?,sad,Questioning why he was wronged expresses hurt and bewilderment.
+a_235_0.wav,angry,"А то ж із землі вигнали, як собаку.",sad,"Describes being driven away like a dog, expressing deep humiliation."
+a_236_0.wav,angry,Хіба можна в такий день?,sad,Rhetorical question implies something inappropriate happened on a special day.
+a_237_0.wav,angry,Хата твоя горить! Пожар настоящий.,neutral,Factual announcement about a house fire without emotional coloring.
+s_207_0.wav,sad,Моя Таня,sad,Simple name mention suggests longing or loss for someone dear.
+a_238_0.wav,angry,А Олену зі світу звести не гріх?,angry,Rhetorical question about killing someone shows murderous intent and rage.
+a_239_0.wav,angry,Їх уже немає. А живим жити.,sad,Philosophical statement about death and survival carries melancholy acceptance.
+a_240_0.wav,angry,"Я батько, кажи?",neutral,Simple question about paternal relationship without clear emotional charge.
+a_241_0.wav,angry,"Та не знаю я, я не знаю.",sad,"Repeated denial shows confusion, helplessness, and emotional distress."
+s_208_1.wav,sad,"Ви люди, чи не люди?",angry,Rhetorical question challenging others' humanity shows moral outrage and indignation.
+s_209_1.wav,sad,Та й зник.,neutral,A simple factual statement about someone disappearing with no emotional tone.
+s_210_1.wav,sad,"А я не хотіла, щоб він синів брав.",sad,"Expresses regret or unwillingness about something involving sons, suggesting sadness."
+a_242_1.wav,angry,Ну стій кажу.,neutral,A direct command to wait/stand with no clear emotional valence.
+a_243_1.wav,angry,А мені не треба знати,neutral,States lack of need to know something in a matter-of-fact way.
+h_231_1.wav,happy,Та не сміши мене,angry,"Dismissive phrase telling someone not to make them laugh, showing irritation."
+a_244_0.wav,angry,І всі рівні будуть.,neutral,Matter-of-fact statement about everyone being equal with no emotional charge.
+a_245_0.wav,angry,Аби був результат.,neutral,"Expresses desire for results in a straightforward, goal-oriented manner."
+a_246_1.wav,angry,Тихо будь.,angry,"Sharp command to be quiet, indicating irritation or anger."
+h_232_1.wav,happy,Звідки?,neutral,Simple question asking about origin or source with no emotional tone.
+h_233_0.wav,happy,"Тетяночко, ну яка ти стала.",happy,"Warm, affectionate address expressing positive observation about someone's appearance."
+h_234_1.wav,happy,Як ж я тебе давно не бачила,happy,Expresses joy and affection about not seeing someone for a long time.
+h_235_0.wav,happy,"Бачу, в тебе не тільки животик, а й ще дещо виросло.",happy,"Playful, teasing comment about physical changes, suggesting warmth and familiarity."
+h_236_1.wav,happy,"Мій брат, Федір, я ж, я ж тобі про нього розповідала.",neutral,"Informational statement introducing a brother, with no clear emotional valence."
+h_237_1.wav,happy,Найкраща моя подруга тут.,happy,Expresses joy about having their best friend present.
+a_247_0.wav,angry,Ану давай без оцих словечок,angry,"Demanding someone stop using certain words, showing irritation or disapproval."
+a_248_1.wav,angry,Ви що робите?,neutral,Direct question asking about actions with no emotional charge.
+a_249_1.wav,angry,Ви отруїти його хочете?,angry,"Accusatory question about poisoning someone, expressing alarm and anger."
+a_250_0.wav,angry,"Може, не моя, зате жива.",sad,Resigned acceptance that something may not be theirs but at least alive.
+s_211_1.wav,sad,Куди ти йдеш?,neutral,Simple question about destination with no emotional tone.
+s_212_1.wav,sad,Ти сам один,sad,Statement about being alone suggests loneliness or melancholy.
+s_213_1.wav,sad,Залишайся зі мною,sad,A plea to stay suggests emotional distress or longing.
+s_214_1.wav,sad,Почекай може стерпиться-злюбиться,neutral,"A common saying about patience and acceptance, delivered matter-of-factly."
+s_215_0.wav,sad,Спробуєш?,neutral,A simple question offering or asking about trying something.
+a_251_1.wav,angry,Що так і підеш?,neutral,A straightforward question about someone's departure plans.
+a_252_1.wav,angry,Навіть мені не допоможеш?,sad,Expresses disappointment or hurt about lack of help from someone close.
+h_238_0.wav,happy,Тут мені не страшний,happy,Expresses confidence and lack of fear in the current situation.
+s_216_1.wav,sad,В мене немає грошей,sad,Statement about financial hardship carries negative emotional weight.
+a_253_0.wav,angry,"Моя робота полягає в тому, щоб знайти всі",neutral,A factual description of job responsibilities without emotional coloring.
+a_254_0.wav,angry,"Тим паче, відомі",neutral,An incomplete phrase that appears to be stating facts.
+a_255_0.wav,angry,А вона постійно в тіктоку сидить.,angry,Complaint about someone's constant social media use shows irritation.
+a_256_0.wav,angry,Що не так?,neutral,A basic question asking what's wrong without emotional charge.
+h_239_0.wav,happy,Точно,neutral,Simple confirmation or agreement without emotional content.
+a_257_1.wav,angry,Ну що ти професіонал,neutral,"Statement about professionalism, appears factual rather than emotional."
+a_258_1.wav,angry,Жодних зауважень.,neutral,A factual statement about absence of complaints or issues.
+s_217_1.wav,sad,Через мене ми втратили нашу дитину,sad,"Takes blame for losing a child, expressing deep grief and guilt."
+s_218_1.wav,sad,Це все моя привина,sad,Self-blame statement carries heavy emotional weight of guilt and remorse.
+s_219_1.wav,sad,Штучної стимуляції чого?,neutral,A clarifying question about medical procedures without emotional content.
+s_220_1.wav,sad,Моя дитина померла.,sad,Direct statement about child's death expresses profound grief and loss.
+s_221_1.wav,sad,Я я не так планувала народжувати,sad,Expresses disappointment about birth experience not going as planned.
+s_222_1.wav,sad,"Ти щось скажеш, Дім?",neutral,A direct question asking for someone's input or response.
+h_240_0.wav,happy,без жодної голівудської сцени. Це успіх.,happy,Expressing success and satisfaction about avoiding Hollywood scenes suggests positive sentiment.
+h_241_1.wav,happy,На двох?,neutral,Simple clarifying question about quantity with no emotional indicators.
+n_222_0.wav,neutral,Я думав ти спиш,neutral,Matter-of-fact statement about thinking someone was sleeping.
+s_223_1.wav,sad,"Вже добу не спала, і не знаю, колись зможу знову.",sad,Expressing exhaustion and uncertainty about sleeping again indicates distress and sadness.
+s_224_0.wav,sad,"А я не знаю, що",neutral,Incomplete statement expressing uncertainty without clear emotional direction.
+s_225_1.wav,sad,"Знову, ти мовчиш",angry,Accusatory tone about someone being silent again suggests frustration or irritation.
+s_226_1.wav,sad,Але замість дитячого крику я,neutral,Incomplete sentence about substituting child's cry lacks clear emotional context.
+h_242_0.wav,happy,Ти переоцінюєш можливості продюсера,neutral,Factual statement about overestimating producer's capabilities without emotional charge.
+h_243_0.wav,happy,Ну що ти як маленька,angry,Dismissive comparison to a child suggests irritation or condescension.
+a_259_1.wav,angry,А мені не потрібні всі.,neutral,Simple statement of not needing everyone without strong emotional indicators.
+s_227_1.wav,sad,Ну чо ти мене заспокоюєш?,angry,Questioning why someone is calming them suggests resistance and irritation.
+h_244_0.wav,happy,Все ще тримаєш на мене зуб,angry,Asking if someone still holds a grudge indicates ongoing resentment or anger.
