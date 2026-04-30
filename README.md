@@ -73,6 +73,7 @@ pipeline.py           ← run this to execute all steps end-to-end
 ```bash
 export HF_TOKEN=your_huggingface_token      # for pyannote diarization
 export GEMINI_API_KEY=your_gemini_api_key   # only needed for ASR step
+export CLAUDE_API_KEY=your_claude_api_key   # only needed for text analysis step
 ```
 
 **Main dependencies:** `yt-dlp`, `pyannote.audio`, `panns-inference`, `denoiser`, `pyloudnorm`, `transformers`, `torch`, `librosa`, `soundfile`, `pandas`, `flask`
